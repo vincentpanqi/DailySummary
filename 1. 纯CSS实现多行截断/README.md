@@ -86,6 +86,8 @@ text-overflow: [ clip | ellipsis | <string> ]{1,2};
 
 此外 JS 也可以实现这类功能。
 
+### 参考文献：
+
 [Pure CSS for multiline truncation with ellipsis][multiline-truncation]
 
 [multiline-truncation]: http://hackingui.com/front-end/a-pure-css-solution-for-multiline-text-truncation/
