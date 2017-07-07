@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>浅笑安然系列</title>
+    <style>
+    </style>
+</head>
+<body>
+  <form>
+  <label>
+    Name:
+    <input type="text" name="name" value="sd" />
+  </label>
+  <input type="submit" value="Submit" />
+
+  <select>
+  <option value="grapefruit">Grapefruit</option>
+  <option value="lime">Lime</option>
+  <option selected value="coconut">Coconut</option>
+  <option value="mango">Mango</option>
+</select>
+</form>
+<table id="producttable">
+  <thead>
+    <tr>
+      <td>UPC_Code</td>
+      <td>Product_Name</td>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- existing data could optionally be included here -->
+  </tbody>
+</table>
+<template id="productrow">
+  <tr>
+    <td class="record"></td>
+    <td></td>
+  </tr>
+</template>
+</body>
+<script src="./index.js"></script>
+<script defer src="./defer1.js"></script>
+<script async src="./async1.js"></script>
+<script defer async>
+  // window.onload = function() {
+    // document.write('123')
+  // }
+  // var a = document.createElement('<div></div');
+
+  if ('content' in document.createElement('template')) {
+
+    // Instantiate the table with the existing HTML tbody and the row with the template
+    var t = document.querySelector('#productrow'),
+    td = t.content.querySelectorAll("td");
+    td[0].textContent = "1235646565";
+    td[1].textContent = "Stuff";
+
+    // Clone the new row and insert it into the table
+    var tb = document.getElementsByTagName("tbody");
+    var clone = document.importNode(t.content, true);
+    tb[0].appendChild(clone);
+
+    // Create a new row
+    td[0].textContent = "0384928528";
+    td[1].textContent = "Acme Kidney Beans";
+
+    // Clone the new row and insert it into the table
+    var clone2 = document.importNode(t.content, true);
+    tb[0].appendChild(clone2);
+
+  } else {
+    // Find another way to add the rows to the table because
+    // the HTML template element is not supported.
+  }
+  document.addEventListener("DOMContentLoaded", function(event) {
+     console.log("DOM fully loaded and parsed");
+ });
+ window.onload = () => {
+  console.log('load');
+ }
+ window.onunload = () => {
+  console.log('unload');
+ };
+ window.onbeforeunload = () => {
+  console.log('beforeunload');
+ };
+ for(var i=0; i<1000000000; i++){
+      // 这个同步脚本将延迟DOM的解析。
+      // 所以DOMContentLoaded事件稍后将启动。
+  }
+</script>
+</html>
