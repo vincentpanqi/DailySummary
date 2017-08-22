@@ -1,0 +1,1740 @@
+v8-version,5,1,281,98,0
+shared-library,"/usr/local/bin/node",0x100001200,0x100ae2ccd
+shared-library,"/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",0x7fff8339b5d0,0x7fff8356d44c
+shared-library,"/usr/lib/libSystem.B.dylib",0x7fff860a1989,0x7fff860a1b5c
+shared-library,"/usr/lib/libstdc++.6.dylib",0x7fff81c14150,0x7fff81c53455
+shared-library,"/usr/lib/libauto.dylib",0x7fff8f17dda0,0x7fff8f1bdf50
+shared-library,"/usr/lib/libDiagnosticMessagesClient.dylib",0x7fff9315412f,0x7fff93154a22
+shared-library,"/usr/lib/libicucore.A.dylib",0x7fff849ec1a4,0x7fff84b9ccf9
+shared-library,"/usr/lib/libobjc.A.dylib",0x7fff8b1e7000,0x7fff8b205414
+shared-library,"/usr/lib/libz.1.dylib",0x7fff94c5fb10,0x7fff94c6ac55
+shared-library,"/usr/lib/libc++.1.dylib",0x7fff93e62f90,0x7fff93ea8918
+shared-library,"/usr/lib/libc++abi.dylib",0x7fff95f26e80,0x7fff95f4ca8a
+shared-library,"/usr/lib/system/libcache.dylib",0x7fff88c108c0,0x7fff88c134ee
+shared-library,"/usr/lib/system/libcommonCrypto.dylib",0x7fff94814164,0x7fff9481da3f
+shared-library,"/usr/lib/system/libcompiler_rt.dylib",0x7fff93e46d24,0x7fff93e4ba9e
+shared-library,"/usr/lib/system/libcopyfile.dylib",0x7fff861404a8,0x7fff8614662c
+shared-library,"/usr/lib/system/libcorecrypto.dylib",0x7fff92666740,0x7fff926be9a3
+shared-library,"/usr/lib/system/libdispatch.dylib",0x7fff93801bb4,0x7fff9382653e
+shared-library,"/usr/lib/system/libdyld.dylib",0x7fff958ea0e8,0x7fff958ec5b5
+shared-library,"/usr/lib/system/libkeymgr.dylib",0x7fff888d5a19,0x7fff888d5e4e
+shared-library,"/usr/lib/system/liblaunch.dylib",0x7fff81f09fc0,0x7fff81f09fc0
+shared-library,"/usr/lib/system/libmacho.dylib",0x7fff8cbc511c,0x7fff8cbc98b9
+shared-library,"/usr/lib/system/libquarantine.dylib",0x7fff839b3210,0x7fff839b4b12
+shared-library,"/usr/lib/system/libremovefile.dylib",0x7fff96eeb924,0x7fff96eecc82
+shared-library,"/usr/lib/system/libsystem_asl.dylib",0x7fff93eb7190,0x7fff93ecc0d8
+shared-library,"/usr/lib/system/libsystem_blocks.dylib",0x7fff860cb340,0x7fff860cbb34
+shared-library,"/usr/lib/system/libsystem_c.dylib",0x7fff8aa68c00,0x7fff8aaecf60
+shared-library,"/usr/lib/system/libsystem_configuration.dylib",0x7fff822d4df0,0x7fff822d6920
+shared-library,"/usr/lib/system/libsystem_coreservices.dylib",0x7fff8b842b94,0x7fff8b84457e
+shared-library,"/usr/lib/system/libsystem_coretls.dylib",0x7fff8d0302d8,0x7fff8d04140b
+shared-library,"/usr/lib/system/libsystem_dnssd.dylib",0x7fff8813c5c8,0x7fff8814220e
+shared-library,"/usr/lib/system/libsystem_info.dylib",0x7fff936d6808,0x7fff936fb37e
+shared-library,"/usr/lib/system/libsystem_kernel.dylib",0x7fff888d7330,0x7fff888eeaf6
+shared-library,"/usr/lib/system/libsystem_m.dylib",0x7fff94616760,0x7fff9462b1b5
+shared-library,"/usr/lib/system/libsystem_malloc.dylib",0x7fff8f1f8ef0,0x7fff8f2112ef
+shared-library,"/usr/lib/system/libsystem_network.dylib",0x7fff87a9a18c,0x7fff87ae428c
+shared-library,"/usr/lib/system/libsystem_networkextension.dylib",0x7fff8d960d95,0x7fff8d9675fe
+shared-library,"/usr/lib/system/libsystem_notify.dylib",0x7fff8b54a892,0x7fff8b553890
+shared-library,"/usr/lib/system/libsystem_platform.dylib",0x7fff8c495900,0x7fff8c49b373
+shared-library,"/usr/lib/system/libsystem_pthread.dylib",0x7fff8c55ef38,0x7fff8c5655ef
+shared-library,"/usr/lib/system/libsystem_sandbox.dylib",0x7fff9382f7d4,0x7fff938316cd
+shared-library,"/usr/lib/system/libsystem_secinit.dylib",0x7fff8eab4ac7,0x7fff8eab5524
+shared-library,"/usr/lib/system/libsystem_trace.dylib",0x7fff8ea66abc,0x7fff8ea74517
+shared-library,"/usr/lib/system/libunc.dylib",0x7fff90fe2fc0,0x7fff90fe2fc0
+shared-library,"/usr/lib/system/libunwind.dylib",0x7fff860af918,0x7fff860b42b8
+shared-library,"/usr/lib/system/libxpc.dylib",0x7fff8bbb7d6c,0x7fff8bbd564e
+profiler,"begin",1
+tick,0x7fff8f1fdb3c,519,0,0x0,4
+tick,0x7fff8c49a08f,1802,0,0x0,4
+tick,0x10017f253,3050,0,0x0,1
+code-creation,Stub,3,0x1bb1e8f06000,454,"CallConstructStub"
+code-creation,Stub,3,0x1bb1e8f061e0,539,"CreateAllocationSiteStub"
+code-creation,Stub,3,0x1bb1e8f06400,2421,"RecordWriteStub"
+code-creation,Stub,3,0x1bb1e8f06d80,388,"StoreBufferOverflowStub"
+code-creation,Stub,3,0x1bb1e8f06f20,2380,"RecordWriteStub"
+code-creation,Stub,3,0x1bb1e8f07880,577,"CEntryStub"
+code-creation,Stub,3,0x1bb1e8f07ae0,431,"CreateWeakCellStub"
+code-creation,Stub,3,0x1bb1e8f07ca0,2422,"RecordWriteStub"
+code-creation,Stub,3,0x1bb1e8f08620,2376,"RecordWriteStub"
+code-creation,Builtin,5,0x1bb1e8f08f80,168,"Construct"
+code-creation,Builtin,5,0x1bb1e8f09040,114,"ConstructFunction"
+code-creation,Builtin,5,0x1bb1e8f090c0,259,"ConstructBoundFunction"
+code-creation,Stub,3,0x1bb1e8f091e0,392,"CEntryStub"
+code-creation,Builtin,5,0x1bb1e8f09380,121,"ConstructProxy"
+code-creation,Builtin,5,0x1bb1e8f09400,406,"CallFunction_ReceiverIsAny"
+code-creation,Stub,3,0x1bb1e8f095a0,435,"ToObjectStub"
+code-creation,Builtin,5,0x1bb1e8f09760,353,"ArgumentsAdaptorTrampoline"
+code-creation,Builtin,5,0x1bb1e8f098e0,149,"ConstructedNonConstructable"
+code-creation,Stub,16,0x1bb1e8f09980,186,"CompareICStub"
+code-creation,Stub,15,0x1bb1e8f09a40,204,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f09b20,116,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f09ba0,443,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f09d60,120,"An IC handler from the snapshot"
+code-creation,Stub,3,0x1bb1e8f09de0,511,"ArrayNoArgumentConstructorStub"
+code-creation,Stub,15,0x1bb1e8f09fe0,244,"BinaryOpICStub"
+code-creation,Stub,3,0x1bb1e8f0a0e0,495,"InternalArrayNArgumentsConstructorStub"
+code-creation,Stub,3,0x1bb1e8f0a2e0,2376,"RecordWriteStub"
+code-creation,CallIC,12,0x1bb1e8f0ac40,458,"A call IC from the snapshot"
+code-creation,Stub,3,0x1bb1e8f0ae20,285,"ArrayConstructorStub"
+code-creation,Stub,3,0x1bb1e8f0af40,539,"ArrayNoArgumentConstructorStub"
+code-creation,Stub,3,0x1bb1e8f0b160,551,"ArrayNoArgumentConstructorStub"
+code-creation,Stub,3,0x1bb1e8f0b3a0,491,"ArrayNoArgumentConstructorStub"
+code-creation,Stub,3,0x1bb1e8f0b5a0,491,"ArrayNoArgumentConstructorStub"
+code-creation,Stub,3,0x1bb1e8f0b7a0,511,"ArrayNoArgumentConstructorStub"
+code-creation,Stub,3,0x1bb1e8f0b9a0,503,"ArrayNoArgumentConstructorStub"
+code-creation,Builtin,5,0x1bb1e8f0bba0,248,"Call_ReceiverIsAny"
+code-creation,Builtin,5,0x1bb1e8f0bca0,259,"CallBoundFunction"
+code-creation,Builtin,5,0x1bb1e8f0bdc0,381,"CallFunction_ReceiverIsNotNullOrUndefined"
+code-creation,Stub,15,0x1bb1e8f0bf40,284,"BinaryOpICStub"
+code-creation,Stub,16,0x1bb1e8f0c060,186,"CompareICStub"
+code-creation,Stub,3,0x1bb1e8f0c120,2392,"RecordWriteStub"
+code-creation,Stub,15,0x1bb1e8f0ca80,151,"BinaryOpICStub"
+code-creation,Stub,3,0x1bb1e8f0cb20,142,"StringToNumberStub"
+code-creation,Stub,3,0x1bb1e8f0cbc0,1307,"FastNewContextStub"
+code-creation,Stub,15,0x1bb1e8f0d0e0,151,"BinaryOpICStub"
+code-creation,Stub,15,0x1bb1e8f0d180,443,"BinaryOpICStub"
+code-creation,Stub,3,0x1bb1e8f0d340,1538,"RecordWriteStub"
+code-creation,Stub,3,0x1bb1e8f0d960,168,"StoreBufferOverflowStub"
+code-creation,Stub,3,0x1bb1e8f0da20,1035,"FastNewContextStub"
+code-creation,Handler,4,0x1bb1e8f0de40,116,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f0dec0,415,"BinaryOpICStub"
+code-creation,Stub,3,0x1bb1e8f0e060,2376,"RecordWriteStub"
+code-creation,Stub,3,0x1bb1e8f0e9c0,899,"FastNewContextStub"
+code-creation,Stub,15,0x1bb1e8f0ed60,204,"BinaryOpICStub"
+code-creation,Stub,15,0x1bb1e8f0ee40,151,"BinaryOpICStub"
+code-creation,CallIC,12,0x1bb1e8f0eee0,113,"A call IC from the snapshot"
+code-creation,CallIC,12,0x1bb1e8f0ef60,464,"A call IC from the snapshot"
+code-creation,Stub,3,0x1bb1e8f0f140,284,"ArrayConstructorStub"
+code-creation,Stub,3,0x1bb1e8f0f260,762,"ArrayNArgumentsConstructorStub"
+code-creation,Stub,3,0x1bb1e8f0f560,2434,"RecordWriteStub"
+code-creation,Stub,3,0x1bb1e8f0ff00,770,"ArrayNArgumentsConstructorStub"
+code-creation,Stub,3,0x1bb1e8f10220,571,"ArrayNArgumentsConstructorStub"
+code-creation,Stub,3,0x1bb1e8f10460,571,"ArrayNArgumentsConstructorStub"
+code-creation,Stub,3,0x1bb1e8f106a0,503,"ArrayNArgumentsConstructorStub"
+code-creation,Stub,3,0x1bb1e8f108a0,503,"ArrayNArgumentsConstructorStub"
+code-creation,Stub,3,0x1bb1e8f10aa0,543,"ArrayNArgumentsConstructorStub"
+code-creation,CallIC,12,0x1bb1e8f10cc0,113,"A call IC from the snapshot"
+code-creation,Stub,3,0x1bb1e8f10d40,2360,"RecordWriteStub"
+code-creation,Stub,15,0x1bb1e8f11680,356,"BinaryOpICStub"
+code-creation,Stub,3,0x1bb1e8f11800,184,"DoubleToIStub"
+code-creation,Stub,3,0x1bb1e8f118c0,507,"NumberToStringStub"
+code-creation,Stub,3,0x1bb1e8f11ac0,182,"DoubleToIStub"
+code-creation,Stub,15,0x1bb1e8f11b80,204,"BinaryOpICStub"
+code-creation,Stub,15,0x1bb1e8f11c60,244,"BinaryOpICStub"
+code-creation,Stub,3,0x1bb1e8f11d60,182,"DoubleToIStub"
+code-creation,Stub,15,0x1bb1e8f11e20,443,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f11fe0,120,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f12060,328,"An IC handler from the snapshot"
+code-creation,Stub,3,0x1bb1e8f121c0,791,"FastNewClosureStub"
+code-creation,Stub,3,0x1bb1e8f124e0,2410,"RecordWriteStub"
+code-creation,Stub,3,0x1bb1e8f12e60,2406,"RecordWriteStub"
+code-creation,CallIC,12,0x1bb1e8f137e0,113,"A call IC from the snapshot"
+code-creation,CallIC,12,0x1bb1e8f13860,464,"A call IC from the snapshot"
+code-creation,Builtin,5,0x1bb1e8f13a40,248,"Call_ReceiverIsNotNullOrUndefined"
+code-creation,Stub,15,0x1bb1e8f13b40,151,"BinaryOpICStub"
+code-creation,Stub,3,0x1bb1e8f13be0,575,"FastNewContextStub"
+code-creation,Stub,3,0x1bb1e8f13e20,523,"FastNewContextStub"
+code-creation,Stub,15,0x1bb1e8f14040,471,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f14220,328,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f14380,116,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f14400,120,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f14480,320,"BinaryOpICStub"
+code-creation,Stub,3,0x1bb1e8f145c0,1224,"BinaryOpWithAllocationSiteStub"
+code-creation,Stub,3,0x1bb1e8f14aa0,363,"FastNewContextStub"
+code-creation,Stub,15,0x1bb1e8f14c20,447,"BinaryOpICStub"
+code-creation,Stub,15,0x1bb1e8f14de0,443,"BinaryOpICStub"
+code-creation,CallIC,12,0x1bb1e8f14fa0,113,"A call IC from the snapshot"
+code-creation,CallIC,12,0x1bb1e8f15020,464,"A call IC from the snapshot"
+code-creation,Stub,15,0x1bb1e8f15200,447,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f153c0,120,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f15440,240,"An IC handler from the snapshot"
+code-creation,Stub,3,0x1bb1e8f15540,2372,"RecordWriteStub"
+code-creation,Stub,15,0x1bb1e8f15ea0,276,"BinaryOpICStub"
+code-creation,Stub,3,0x1bb1e8f15fc0,188,"DoubleToIStub"
+code-creation,Stub,3,0x1bb1e8f16080,419,"FastNewContextStub"
+code-creation,Stub,15,0x1bb1e8f16240,244,"BinaryOpICStub"
+code-creation,Stub,3,0x1bb1e8f16340,385,"JSEntryStub"
+code-creation,Stub,3,0x1bb1e8f164e0,1966,"FastCloneShallowArrayStub"
+code-creation,Stub,3,0x1bb1e8f16ca0,2406,"RecordWriteStub"
+code-creation,Stub,15,0x1bb1e8f17620,276,"BinaryOpICStub"
+code-creation,Stub,15,0x1bb1e8f17740,320,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f17880,116,"An IC handler from the snapshot"
+code-creation,Stub,3,0x1bb1e8f17900,407,"FastNewContextStub"
+code-creation,Handler,4,0x1bb1e8f17aa0,116,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f17b20,356,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f17ca0,120,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f17d20,120,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f17da0,116,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f17e20,116,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f17ea0,120,"An IC handler from the snapshot"
+code-creation,CallIC,12,0x1bb1e8f17f20,113,"A call IC from the snapshot"
+code-creation,CallIC,12,0x1bb1e8f17fa0,464,"A call IC from the snapshot"
+code-creation,Stub,3,0x1bb1e8f18180,333,"ArrayConstructorStub"
+code-creation,Stub,3,0x1bb1e8f182e0,790,"ArraySingleArgumentConstructorStub"
+code-creation,Stub,3,0x1bb1e8f18600,2425,"RecordWriteStub"
+code-creation,Stub,3,0x1bb1e8f18f80,798,"ArraySingleArgumentConstructorStub"
+code-creation,Stub,3,0x1bb1e8f192a0,595,"ArraySingleArgumentConstructorStub"
+code-creation,Stub,3,0x1bb1e8f19500,595,"ArraySingleArgumentConstructorStub"
+code-creation,Stub,3,0x1bb1e8f19760,587,"ArraySingleArgumentConstructorStub"
+code-creation,Stub,3,0x1bb1e8f199c0,587,"ArraySingleArgumentConstructorStub"
+code-creation,Stub,3,0x1bb1e8f19c20,587,"ArraySingleArgumentConstructorStub"
+code-creation,Stub,3,0x1bb1e8f19e80,579,"ArraySingleArgumentConstructorStub"
+code-creation,Stub,3,0x1bb1e8f1a0e0,539,"FastNewContextStub"
+code-creation,Stub,15,0x1bb1e8f1a300,320,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f1a440,116,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f1a4c0,116,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f1a540,204,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f1a620,120,"An IC handler from the snapshot"
+code-creation,Stub,3,0x1bb1e8f1a6a0,447,"FastNewContextStub"
+code-creation,Stub,15,0x1bb1e8f1a860,204,"BinaryOpICStub"
+code-creation,Stub,15,0x1bb1e8f1a940,204,"BinaryOpICStub"
+code-creation,Stub,17,0x1bb1e8f1aa20,216,"ToBooleanICStub"
+code-creation,Handler,4,0x1bb1e8f1ab00,112,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f1ab80,927,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f1af20,419,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f1b0e0,120,"An IC handler from the snapshot"
+code-creation,Stub,16,0x1bb1e8f1b160,194,"CompareICStub"
+code-creation,Handler,4,0x1bb1e8f1b240,348,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f1b3a0,120,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f1b420,212,"BinaryOpICStub"
+code-creation,Stub,15,0x1bb1e8f1b500,224,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f1b5e0,120,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f1b660,111,"BinaryOpICWithAllocationSiteStub"
+code-creation,Handler,4,0x1bb1e8f1b6e0,551,"An IC handler from the snapshot"
+code-creation,Stub,3,0x1bb1e8f1b920,2380,"RecordWriteStub"
+code-creation,Stub,15,0x1bb1e8f1c280,204,"BinaryOpICStub"
+code-creation,Stub,3,0x1bb1e8f1c360,1529,"RecordWriteStub"
+code-creation,Stub,3,0x1bb1e8f1c960,579,"InternalArraySingleArgumentConstructorStub"
+code-creation,Handler,4,0x1bb1e8f1cbc0,116,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f1cc40,240,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f1cd40,120,"An IC handler from the snapshot"
+code-creation,Stub,3,0x1bb1e8f1cdc0,734,"ToLengthStub"
+code-creation,Stub,3,0x1bb1e8f1d0a0,145,"NonNumberToNumberStub"
+code-creation,Stub,3,0x1bb1e8f1d140,1503,"RecordWriteStub"
+code-creation,Stub,15,0x1bb1e8f1d720,276,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f1d840,120,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f1d8c0,180,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f1d980,151,"BinaryOpICStub"
+code-creation,Stub,3,0x1bb1e8f1da20,503,"InternalArrayNoArgumentConstructorStub"
+code-creation,CallIC,12,0x1bb1e8f1dc20,113,"A call IC from the snapshot"
+code-creation,CallIC,12,0x1bb1e8f1dca0,464,"A call IC from the snapshot"
+code-creation,Stub,15,0x1bb1e8f1de80,415,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f1e020,116,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f1e0a0,939,"An IC handler from the snapshot"
+code-creation,Stub,3,0x1bb1e8f1e460,188,"DoubleToIStub"
+code-creation,Stub,15,0x1bb1e8f1e520,467,"BinaryOpICStub"
+code-creation,Stub,3,0x1bb1e8f1e700,1508,"RecordWriteStub"
+code-creation,LoadIC,10,0x1bb1e8f1ed00,514,"A load IC from the snapshot"
+code-creation,Handler,4,0x1bb1e8f1ef20,120,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f1efa0,467,"BinaryOpICStub"
+code-creation,Stub,15,0x1bb1e8f1f180,415,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f1f320,120,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f1f3a0,264,"An IC handler from the snapshot"
+code-creation,Stub,16,0x1bb1e8f1f4c0,172,"CompareICStub"
+code-creation,Stub,15,0x1bb1e8f1f580,443,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f1f740,112,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f1f7c0,443,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f1f980,116,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f1fa00,443,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f1fbc0,120,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f1fc40,160,"An IC handler from the snapshot"
+code-creation,Stub,3,0x1bb1e8f1fce0,791,"FastNewClosureStub"
+code-creation,Stub,17,0x1bb1e8f20000,150,"ToBooleanICStub"
+code-creation,Stub,3,0x1bb1e8f200a0,206,"InternalArrayConstructorStub"
+code-creation,Stub,3,0x1bb1e8f20180,503,"InternalArrayNoArgumentConstructorStub"
+code-creation,Stub,3,0x1bb1e8f20380,579,"InternalArraySingleArgumentConstructorStub"
+code-creation,Stub,3,0x1bb1e8f205e0,495,"InternalArrayNArgumentsConstructorStub"
+code-creation,Handler,4,0x1bb1e8f207e0,120,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f20860,116,"An IC handler from the snapshot"
+code-creation,Stub,3,0x1bb1e8f208e0,555,"ArrayNArgumentsConstructorStub"
+code-creation,Stub,15,0x1bb1e8f20b20,151,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f20bc0,951,"An IC handler from the snapshot"
+code-creation,CallIC,12,0x1bb1e8f20f80,464,"A call IC from the snapshot"
+code-creation,Handler,4,0x1bb1e8f21160,947,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f21520,111,"BinaryOpICWithAllocationSiteStub"
+code-creation,Stub,3,0x1bb1e8f215a0,1387,"BinaryOpWithAllocationSiteStub"
+code-creation,Stub,3,0x1bb1e8f21b20,188,"DoubleToIStub"
+code-creation,Stub,15,0x1bb1e8f21be0,419,"BinaryOpICStub"
+code-creation,Stub,15,0x1bb1e8f21da0,443,"BinaryOpICStub"
+code-creation,Stub,15,0x1bb1e8f21f60,224,"BinaryOpICStub"
+code-creation,Stub,3,0x1bb1e8f22040,511,"ArrayNoArgumentConstructorStub"
+code-creation,Stub,15,0x1bb1e8f22240,284,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f22360,328,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f224c0,320,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f22600,116,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f22680,116,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f22700,204,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f227e0,120,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f22860,120,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f228e0,116,"An IC handler from the snapshot"
+code-creation,CallIC,12,0x1bb1e8f22960,113,"A call IC from the snapshot"
+code-creation,CallIC,12,0x1bb1e8f229e0,464,"A call IC from the snapshot"
+code-creation,Stub,15,0x1bb1e8f22bc0,151,"BinaryOpICStub"
+code-creation,Stub,15,0x1bb1e8f22c60,212,"BinaryOpICStub"
+code-creation,Stub,15,0x1bb1e8f22d40,212,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f22e20,120,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f22ea0,244,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f22fa0,935,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f23360,116,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f233e0,120,"An IC handler from the snapshot"
+code-creation,Stub,3,0x1bb1e8f23460,117,"ToNumberStub"
+code-creation,CallIC,12,0x1bb1e8f234e0,458,"A call IC from the snapshot"
+code-creation,Handler,4,0x1bb1e8f236c0,120,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f23740,120,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f237c0,116,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f23840,116,"An IC handler from the snapshot"
+code-creation,KeyedLoadIC,11,0x1bb1e8f238c0,393,"A keyed load IC from the snapshot"
+code-creation,KeyedLoadIC,11,0x1bb1e8f23a60,1049,"A keyed load IC from the snapshot"
+code-creation,Stub,3,0x1bb1e8f23e80,968,"NameDictionaryLookupStub"
+code-creation,Stub,15,0x1bb1e8f24260,467,"BinaryOpICStub"
+code-creation,Stub,15,0x1bb1e8f24440,204,"BinaryOpICStub"
+code-creation,Stub,3,0x1bb1e8f24520,945,"SubStringStub"
+code-creation,Stub,3,0x1bb1e8f248e0,791,"FastNewClosureStub"
+code-creation,Stub,15,0x1bb1e8f24c00,419,"BinaryOpICStub"
+code-creation,Stub,15,0x1bb1e8f24dc0,415,"BinaryOpICStub"
+code-creation,Stub,3,0x1bb1e8f24f60,385,"JSEntryStub"
+code-creation,CallIC,12,0x1bb1e8f25100,113,"A call IC from the snapshot"
+code-creation,CallIC,12,0x1bb1e8f25180,464,"A call IC from the snapshot"
+code-creation,Stub,3,0x1bb1e8f25360,345,"InstanceOfStub"
+code-creation,Stub,15,0x1bb1e8f254c0,447,"BinaryOpICStub"
+code-creation,Stub,15,0x1bb1e8f25680,151,"BinaryOpICStub"
+code-creation,StoreIC,13,0x1bb1e8f25720,528,"A store IC from the snapshot"
+code-creation,Handler,4,0x1bb1e8f25940,120,"An IC handler from the snapshot"
+code-creation,Stub,17,0x1bb1e8f259c0,192,"ToBooleanICStub"
+code-creation,KeyedStoreIC,14,0x1bb1e8f25a80,422,"A keyed store IC from the snapshot"
+code-creation,KeyedStoreIC,14,0x1bb1e8f25c40,3494,"A keyed store IC from the snapshot"
+code-creation,Stub,3,0x1bb1e8f26a00,1526,"RecordWriteStub"
+code-creation,Stub,3,0x1bb1e8f27000,1508,"RecordWriteStub"
+code-creation,Stub,3,0x1bb1e8f27600,1492,"RecordWriteStub"
+code-creation,Stub,3,0x1bb1e8f27be0,600,"RecordWriteStub"
+code-creation,Handler,4,0x1bb1e8f27e40,120,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f27ec0,224,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f27fa0,939,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f28360,120,"An IC handler from the snapshot"
+code-creation,CallIC,12,0x1bb1e8f283e0,464,"A call IC from the snapshot"
+code-creation,Handler,4,0x1bb1e8f285c0,951,"An IC handler from the snapshot"
+code-creation,CallIC,12,0x1bb1e8f28980,113,"A call IC from the snapshot"
+code-creation,CallIC,12,0x1bb1e8f28a00,464,"A call IC from the snapshot"
+code-creation,Handler,4,0x1bb1e8f28be0,116,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f28c60,120,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f28ce0,443,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f28ea0,348,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f29000,443,"BinaryOpICStub"
+code-creation,Stub,15,0x1bb1e8f291c0,244,"BinaryOpICStub"
+tick,0x7fff888ed7ba,4318,0,0x0,4
+code-creation,Stub,15,0x1bb1e8f292c0,204,"BinaryOpICStub"
+code-creation,Stub,17,0x1bb1e8f293a0,204,"ToBooleanICStub"
+code-creation,Handler,4,0x1bb1e8f29480,116,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f29500,116,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f29580,212,"BinaryOpICStub"
+code-creation,Stub,15,0x1bb1e8f29660,204,"BinaryOpICStub"
+code-creation,CallIC,12,0x1bb1e8f29740,113,"A call IC from the snapshot"
+code-creation,Handler,4,0x1bb1e8f297c0,116,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f29840,116,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f298c0,116,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f29940,204,"BinaryOpICStub"
+code-creation,Stub,3,0x1bb1e8f29a20,117,"StubFailureTrampolineStub"
+code-creation,Stub,3,0x1bb1e8f29aa0,991,"NameDictionaryLookupStub"
+code-creation,Stub,3,0x1bb1e8f29e80,463,"FastNewContextStub"
+code-creation,Handler,4,0x1bb1e8f2a060,120,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f2a0e0,240,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f2a1e0,120,"An IC handler from the snapshot"
+code-creation,Stub,3,0x1bb1e8f2a260,2388,"RecordWriteStub"
+code-creation,Stub,3,0x1bb1e8f2abc0,1187,"FastNewContextStub"
+code-creation,Stub,15,0x1bb1e8f2b080,447,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f2b240,116,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f2b2c0,224,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f2b3a0,116,"An IC handler from the snapshot"
+code-creation,Stub,3,0x1bb1e8f2b420,972,"NameDictionaryLookupStub"
+code-creation,Stub,3,0x1bb1e8f2b800,2205,"FastArrayPushStub"
+code-creation,Stub,3,0x1bb1e8f2c0a0,2360,"RecordWriteStub"
+code-creation,Handler,4,0x1bb1e8f2c9e0,116,"An IC handler from the snapshot"
+code-creation,Stub,3,0x1bb1e8f2ca60,743,"FastNewContextStub"
+code-creation,Handler,4,0x1bb1e8f2cd60,240,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f2ce60,120,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f2cee0,120,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f2cf60,240,"An IC handler from the snapshot"
+code-creation,Stub,3,0x1bb1e8f2d060,483,"FastNewObjectStub"
+code-creation,Handler,4,0x1bb1e8f2d260,120,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f2d2e0,212,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f2d3c0,112,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f2d440,332,"BinaryOpICStub"
+code-creation,Stub,16,0x1bb1e8f2d5a0,194,"CompareICStub"
+code-creation,Stub,3,0x1bb1e8f2d680,391,"FastNewContextStub"
+code-creation,Stub,3,0x1bb1e8f2d820,652,"TypeofStub"
+code-creation,Stub,15,0x1bb1e8f2dac0,284,"BinaryOpICStub"
+code-creation,Stub,15,0x1bb1e8f2dbe0,212,"BinaryOpICStub"
+code-creation,Stub,15,0x1bb1e8f2dcc0,320,"BinaryOpICStub"
+code-creation,Stub,15,0x1bb1e8f2de00,224,"BinaryOpICStub"
+code-creation,Stub,15,0x1bb1e8f2dee0,151,"BinaryOpICStub"
+code-creation,Stub,15,0x1bb1e8f2df80,224,"BinaryOpICStub"
+code-creation,Stub,15,0x1bb1e8f2e060,276,"BinaryOpICStub"
+code-creation,StoreIC,13,0x1bb1e8f2e180,528,"A store IC from the snapshot"
+code-creation,Stub,15,0x1bb1e8f2e3a0,204,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f2e480,120,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f2e500,467,"BinaryOpICStub"
+code-creation,Stub,15,0x1bb1e8f2e6e0,224,"BinaryOpICStub"
+code-creation,Stub,15,0x1bb1e8f2e7c0,415,"BinaryOpICStub"
+code-creation,Stub,3,0x1bb1e8f2e960,116,"StubFailureTrampolineStub"
+code-creation,Stub,3,0x1bb1e8f2e9e0,475,"FastNewContextStub"
+code-creation,Handler,4,0x1bb1e8f2ebc0,116,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f2ec40,332,"BinaryOpICStub"
+code-creation,Stub,15,0x1bb1e8f2eda0,419,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f2ef60,120,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f2efe0,204,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f2f0c0,116,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f2f140,116,"An IC handler from the snapshot"
+code-creation,Stub,3,0x1bb1e8f2f1c0,2418,"RecordWriteStub"
+code-creation,Stub,16,0x1bb1e8f2fb40,213,"CompareICStub"
+code-creation,Handler,4,0x1bb1e8f2fc20,116,"An IC handler from the snapshot"
+code-creation,Stub,3,0x1bb1e8f2fca0,379,"FastNewContextStub"
+code-creation,Stub,15,0x1bb1e8f2fe20,151,"BinaryOpICStub"
+code-creation,Stub,15,0x1bb1e8f2fec0,276,"BinaryOpICStub"
+code-creation,Stub,3,0x1bb1e8f2ffe0,791,"FastNewClosureStub"
+code-creation,Stub,16,0x1bb1e8f30300,172,"CompareICStub"
+code-creation,Handler,4,0x1bb1e8f303c0,120,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f30440,240,"BinaryOpICStub"
+code-creation,Stub,16,0x1bb1e8f30540,172,"CompareICStub"
+code-creation,Stub,15,0x1bb1e8f30600,204,"BinaryOpICStub"
+code-creation,CallIC,12,0x1bb1e8f306e0,113,"A call IC from the snapshot"
+code-creation,KeyedStoreIC,14,0x1bb1e8f30760,422,"A keyed store IC from the snapshot"
+code-creation,KeyedStoreIC,14,0x1bb1e8f30920,3484,"A keyed store IC from the snapshot"
+code-creation,Stub,3,0x1bb1e8f316c0,156,"ToStringStub"
+code-creation,Stub,15,0x1bb1e8f31760,320,"BinaryOpICStub"
+code-creation,Stub,15,0x1bb1e8f318a0,224,"BinaryOpICStub"
+code-creation,Stub,15,0x1bb1e8f31980,204,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f31a60,120,"An IC handler from the snapshot"
+code-creation,CallIC,12,0x1bb1e8f31ae0,113,"A call IC from the snapshot"
+code-creation,Stub,15,0x1bb1e8f31b60,204,"BinaryOpICStub"
+code-creation,Stub,16,0x1bb1e8f31c40,172,"CompareICStub"
+code-creation,Stub,15,0x1bb1e8f31d00,151,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f31da0,116,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f31e20,204,"BinaryOpICStub"
+code-creation,Stub,16,0x1bb1e8f31f00,172,"CompareICStub"
+code-creation,Stub,15,0x1bb1e8f31fc0,443,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f32180,332,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f322e0,443,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f324a0,160,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f32540,224,"BinaryOpICStub"
+code-creation,Stub,3,0x1bb1e8f32620,397,"CallApiGetterStub"
+code-creation,Handler,4,0x1bb1e8f327c0,116,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f32840,120,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f328c0,116,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f32940,320,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f32a80,116,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f32b00,204,"BinaryOpICStub"
+code-creation,Stub,15,0x1bb1e8f32be0,212,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f32cc0,120,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f32d40,320,"BinaryOpICStub"
+code-creation,Stub,15,0x1bb1e8f32e80,151,"BinaryOpICStub"
+code-creation,Stub,15,0x1bb1e8f32f20,320,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f33060,116,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f330e0,120,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f33160,134,"An IC handler from the snapshot"
+code-creation,Builtin,5,0x1bb1e8f33200,122,"LoadIC_Miss"
+code-creation,Handler,4,0x1bb1e8f33280,120,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f33300,415,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f334a0,591,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f33700,284,"BinaryOpICStub"
+code-creation,Stub,3,0x1bb1e8f33820,612,"ArrayConstructorStub"
+code-creation,Stub,15,0x1bb1e8f33aa0,276,"BinaryOpICStub"
+code-creation,Handler,4,0x1bb1e8f33bc0,120,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f33c40,348,"An IC handler from the snapshot"
+code-creation,Stub,15,0x1bb1e8f33da0,284,"BinaryOpICStub"
+code-creation,Stub,15,0x1bb1e8f33ec0,204,"BinaryOpICStub"
+code-creation,Stub,3,0x1bb1e8f33fa0,617,"MathPowStub"
+code-creation,Builtin,5,0x1bb1e8f34220,119,"EmptyFunction"
+code-creation,Builtin,5,0x1bb1e8f342a0,172,"CompileLazy"
+code-creation,Builtin,5,0x1bb1e8f34360,302,"JSConstructStubGeneric"
+code-creation,Builtin,5,0x1bb1e8f344a0,261,"JSBuiltinsConstructStub"
+code-creation,Builtin,5,0x1bb1e8f345c0,119,"RestrictedFunctionPropertiesThrower"
+code-creation,Builtin,5,0x1bb1e8f34640,119,"Illegal"
+code-creation,Builtin,5,0x1bb1e8f346c0,119,"ObjectAssign"
+code-creation,Builtin,5,0x1bb1e8f34740,119,"ObjectCreate"
+code-creation,Builtin,5,0x1bb1e8f347c0,119,"ObjectFreeze"
+code-creation,Builtin,5,0x1bb1e8f34840,119,"ObjectGetOwnPropertyDescriptor"
+code-creation,Builtin,5,0x1bb1e8f348c0,119,"ObjectGetOwnPropertyNames"
+code-creation,Builtin,5,0x1bb1e8f34940,119,"ObjectGetOwnPropertySymbols"
+code-creation,Builtin,5,0x1bb1e8f349c0,119,"ObjectIs"
+code-creation,Builtin,5,0x1bb1e8f34a40,119,"ObjectIsExtensible"
+code-creation,Builtin,5,0x1bb1e8f34ac0,119,"ObjectIsFrozen"
+code-creation,Builtin,5,0x1bb1e8f34b40,119,"ObjectIsSealed"
+code-creation,Builtin,5,0x1bb1e8f34bc0,119,"ObjectKeys"
+code-creation,Builtin,5,0x1bb1e8f34c40,119,"ObjectPreventExtensions"
+code-creation,Builtin,5,0x1bb1e8f34cc0,119,"ObjectSeal"
+code-creation,Builtin,5,0x1bb1e8f34d40,507,"ObjectHasOwnProperty"
+code-creation,Builtin,5,0x1bb1e8f34f40,125,"FunctionConstructor"
+code-creation,Builtin,5,0x1bb1e8f34fc0,208,"FunctionPrototypeApply"
+code-creation,Builtin,5,0x1bb1e8f350a0,343,"Apply"
+code-creation,Builtin,5,0x1bb1e8f35200,119,"FunctionPrototypeBind"
+code-creation,Builtin,5,0x1bb1e8f35280,143,"FunctionPrototypeCall"
+code-creation,Builtin,5,0x1bb1e8f35320,119,"FunctionPrototypeToString"
+code-creation,Builtin,5,0x1bb1e8f353a0,144,"FunctionHasInstance"
+code-creation,Builtin,5,0x1bb1e8f35440,116,"ArrayCode"
+code-creation,Builtin,5,0x1bb1e8f354c0,119,"ArrayIsArray"
+code-creation,Builtin,5,0x1bb1e8f35540,123,"NumberConstructor"
+code-creation,Builtin,5,0x1bb1e8f355c0,327,"NumberConstructor_ConstructStub"
+code-creation,Builtin,5,0x1bb1e8f35720,119,"BooleanConstructor"
+code-creation,Builtin,5,0x1bb1e8f357a0,125,"BooleanConstructor_ConstructStub"
+code-creation,Builtin,5,0x1bb1e8f35820,119,"BooleanPrototypeToString"
+code-creation,Builtin,5,0x1bb1e8f358a0,119,"BooleanPrototypeValueOf"
+code-creation,Builtin,5,0x1bb1e8f35920,167,"StringConstructor"
+code-creation,Builtin,5,0x1bb1e8f359e0,325,"StringConstructor_ConstructStub"
+code-creation,Builtin,5,0x1bb1e8f35b40,119,"StringFromCharCode"
+code-creation,Builtin,5,0x1bb1e8f35bc0,119,"SymbolConstructor"
+code-creation,Builtin,5,0x1bb1e8f35c40,124,"SymbolConstructor_ConstructStub"
+code-creation,Builtin,5,0x1bb1e8f35cc0,119,"DateConstructor"
+code-creation,Builtin,5,0x1bb1e8f35d40,125,"DateConstructor_ConstructStub"
+code-creation,Builtin,5,0x1bb1e8f35dc0,119,"DateNow"
+code-creation,Builtin,5,0x1bb1e8f35e40,119,"DateParse"
+code-creation,Builtin,5,0x1bb1e8f35ec0,119,"DateUTC"
+code-creation,Builtin,5,0x1bb1e8f35f40,119,"DatePrototypeToString"
+code-creation,Builtin,5,0x1bb1e8f35fc0,119,"DatePrototypeToDateString"
+code-creation,Builtin,5,0x1bb1e8f36040,119,"DatePrototypeToTimeString"
+code-creation,Builtin,5,0x1bb1e8f360c0,119,"DatePrototypeToISOString"
+code-creation,Builtin,5,0x1bb1e8f36140,119,"DatePrototypeToUTCString"
+code-creation,Builtin,5,0x1bb1e8f361c0,273,"DatePrototypeGetDate"
+code-creation,Builtin,5,0x1bb1e8f362e0,119,"DatePrototypeSetDate"
+code-creation,Builtin,5,0x1bb1e8f36360,273,"DatePrototypeGetDay"
+code-creation,Builtin,5,0x1bb1e8f36480,273,"DatePrototypeGetFullYear"
+code-creation,Builtin,5,0x1bb1e8f365a0,119,"DatePrototypeSetFullYear"
+code-creation,Builtin,5,0x1bb1e8f36620,273,"DatePrototypeGetHours"
+code-creation,Builtin,5,0x1bb1e8f36740,119,"DatePrototypeSetHours"
+code-creation,Builtin,5,0x1bb1e8f367c0,247,"DatePrototypeGetMilliseconds"
+code-creation,Builtin,5,0x1bb1e8f368c0,119,"DatePrototypeSetMilliseconds"
+code-creation,Builtin,5,0x1bb1e8f36940,273,"DatePrototypeGetMinutes"
+code-creation,Builtin,5,0x1bb1e8f36a60,119,"DatePrototypeSetMinutes"
+code-creation,Builtin,5,0x1bb1e8f36ae0,273,"DatePrototypeGetMonth"
+code-creation,Builtin,5,0x1bb1e8f36c00,119,"DatePrototypeSetMonth"
+code-creation,Builtin,5,0x1bb1e8f36c80,273,"DatePrototypeGetSeconds"
+code-creation,Builtin,5,0x1bb1e8f36da0,119,"DatePrototypeSetSeconds"
+code-creation,Builtin,5,0x1bb1e8f36e20,175,"DatePrototypeGetTime"
+code-creation,Builtin,5,0x1bb1e8f36ee0,119,"DatePrototypeSetTime"
+code-creation,Builtin,5,0x1bb1e8f36f60,247,"DatePrototypeGetTimezoneOffset"
+code-creation,Builtin,5,0x1bb1e8f37060,247,"DatePrototypeGetUTCDate"
+code-creation,Builtin,5,0x1bb1e8f37160,119,"DatePrototypeSetUTCDate"
+code-creation,Builtin,5,0x1bb1e8f371e0,247,"DatePrototypeGetUTCDay"
+code-creation,Builtin,5,0x1bb1e8f372e0,247,"DatePrototypeGetUTCFullYear"
+code-creation,Builtin,5,0x1bb1e8f373e0,119,"DatePrototypeSetUTCFullYear"
+code-creation,Builtin,5,0x1bb1e8f37460,247,"DatePrototypeGetUTCHours"
+code-creation,Builtin,5,0x1bb1e8f37560,119,"DatePrototypeSetUTCHours"
+code-creation,Builtin,5,0x1bb1e8f375e0,247,"DatePrototypeGetUTCMilliseconds"
+code-creation,Builtin,5,0x1bb1e8f376e0,119,"DatePrototypeSetUTCMilliseconds"
+code-creation,Builtin,5,0x1bb1e8f37760,247,"DatePrototypeGetUTCMinutes"
+code-creation,Builtin,5,0x1bb1e8f37860,119,"DatePrototypeSetUTCMinutes"
+code-creation,Builtin,5,0x1bb1e8f378e0,247,"DatePrototypeGetUTCMonth"
+code-creation,Builtin,5,0x1bb1e8f379e0,119,"DatePrototypeSetUTCMonth"
+code-creation,Builtin,5,0x1bb1e8f37a60,247,"DatePrototypeGetUTCSeconds"
+code-creation,Builtin,5,0x1bb1e8f37b60,119,"DatePrototypeSetUTCSeconds"
+code-creation,Builtin,5,0x1bb1e8f37be0,119,"DatePrototypeValueOf"
+code-creation,Builtin,5,0x1bb1e8f37c60,119,"DatePrototypeGetYear"
+code-creation,Builtin,5,0x1bb1e8f37ce0,119,"DatePrototypeSetYear"
+code-creation,Builtin,5,0x1bb1e8f37d60,119,"DatePrototypeToPrimitive"
+code-creation,Builtin,5,0x1bb1e8f37de0,119,"MathAcos"
+code-creation,Builtin,5,0x1bb1e8f37e60,119,"MathAsin"
+code-creation,Builtin,5,0x1bb1e8f37ee0,119,"MathAtan"
+code-creation,Builtin,5,0x1bb1e8f37f60,622,"MathCeil"
+code-creation,Builtin,5,0x1bb1e8f381e0,247,"MathClz32"
+code-creation,Builtin,5,0x1bb1e8f382e0,622,"MathFloor"
+code-creation,Builtin,5,0x1bb1e8f38560,119,"MathFround"
+code-creation,Builtin,5,0x1bb1e8f385e0,119,"MathImul"
+code-creation,Builtin,5,0x1bb1e8f38660,327,"MathMax"
+code-creation,Builtin,5,0x1bb1e8f387c0,327,"MathMin"
+code-creation,Builtin,5,0x1bb1e8f38920,710,"MathRound"
+code-creation,Builtin,5,0x1bb1e8f38c00,414,"MathSqrt"
+code-creation,Builtin,5,0x1bb1e8f38da0,622,"MathTrunc"
+code-creation,Builtin,5,0x1bb1e8f39020,124,"ArrayBufferConstructor"
+code-creation,Builtin,5,0x1bb1e8f390a0,125,"ArrayBufferConstructor_ConstructStub"
+code-creation,Builtin,5,0x1bb1e8f39120,119,"ArrayBufferIsView"
+code-creation,Builtin,5,0x1bb1e8f391a0,119,"DataViewConstructor"
+code-creation,Builtin,5,0x1bb1e8f39220,125,"DataViewConstructor_ConstructStub"
+code-creation,Builtin,5,0x1bb1e8f392a0,119,"ProxyConstructor"
+code-creation,Builtin,5,0x1bb1e8f39320,124,"ProxyConstructor_ConstructStub"
+code-creation,Builtin,5,0x1bb1e8f393a0,119,"ReflectDefineProperty"
+code-creation,Builtin,5,0x1bb1e8f39420,119,"ReflectDeleteProperty"
+code-creation,Builtin,5,0x1bb1e8f394a0,195,"ReflectApply"
+code-creation,Builtin,5,0x1bb1e8f39580,237,"ReflectConstruct"
+code-creation,Builtin,5,0x1bb1e8f39680,119,"ReflectGet"
+code-creation,Builtin,5,0x1bb1e8f39700,119,"ReflectGetOwnPropertyDescriptor"
+code-creation,Builtin,5,0x1bb1e8f39780,119,"ReflectGetPrototypeOf"
+code-creation,Builtin,5,0x1bb1e8f39800,119,"ReflectHas"
+code-creation,Builtin,5,0x1bb1e8f39880,119,"ReflectIsExtensible"
+code-creation,Builtin,5,0x1bb1e8f39900,119,"ReflectOwnKeys"
+code-creation,Builtin,5,0x1bb1e8f39980,119,"ReflectPreventExtensions"
+code-creation,Builtin,5,0x1bb1e8f39a00,119,"ReflectSet"
+code-creation,Builtin,5,0x1bb1e8f39a80,119,"ReflectSetPrototypeOf"
+code-creation,Builtin,5,0x1bb1e8f39b00,119,"RestrictedStrictArgumentsPropertiesThrower"
+code-creation,Builtin,5,0x1bb1e8f39b80,119,"HandleApiCallAsFunction"
+code-creation,Builtin,5,0x1bb1e8f39c00,119,"HandleApiCallAsConstructor"
+code-creation,Builtin,5,0x1bb1e8f39c80,112,"InternalArrayCode"
+code-creation,Builtin,5,0x1bb1e8f39d00,119,"ObjectProtoToString"
+code-creation,Builtin,5,0x1bb1e8f39d80,125,"GeneratorFunctionConstructor"
+code-creation,Builtin,5,0x1bb1e8f39e00,119,"ArrayPop"
+code-creation,Builtin,5,0x1bb1e8f39e80,119,"ArrayShift"
+code-creation,Builtin,5,0x1bb1e8f39f00,119,"ArrayUnshift"
+code-creation,Builtin,5,0x1bb1e8f39f80,119,"ArraySlice"
+code-creation,Builtin,5,0x1bb1e8f3a000,119,"ArraySplice"
+code-creation,Builtin,5,0x1bb1e8f3a080,124,"GlobalEval"
+code-creation,Builtin,5,0x1bb1e8f3a100,119,"ArrayConcat"
+code-creation,Builtin,5,0x1bb1e8f3a180,119,"ArrayPush"
+code-creation,Builtin,5,0x1bb1e8f3a200,119,"ObjectValues"
+code-creation,Builtin,5,0x1bb1e8f3a280,119,"ObjectEntries"
+code-creation,Builtin,5,0x1bb1e8f3a300,119,"ObjectGetOwnPropertyDescriptors"
+code-creation,Builtin,5,0x1bb1e8f3a380,125,"HandleApiCall"
+code-creation,Builtin,5,0x1bb1e8f3a400,306,"CallFunction_ReceiverIsNullOrUndefined"
+code-creation,Builtin,5,0x1bb1e8f3a540,432,"TailCallFunction_ReceiverIsNullOrUndefined"
+code-creation,Builtin,5,0x1bb1e8f3a700,507,"TailCallFunction_ReceiverIsNotNullOrUndefined"
+code-creation,Builtin,5,0x1bb1e8f3a900,532,"TailCallFunction_ReceiverIsAny"
+code-creation,Builtin,5,0x1bb1e8f3ab20,385,"TailCallBoundFunction"
+code-creation,Builtin,5,0x1bb1e8f3acc0,248,"Call_ReceiverIsNullOrUndefined"
+code-creation,Builtin,5,0x1bb1e8f3adc0,374,"TailCall_ReceiverIsNullOrUndefined"
+code-creation,Builtin,5,0x1bb1e8f3af40,374,"TailCall_ReceiverIsNotNullOrUndefined"
+code-creation,Builtin,5,0x1bb1e8f3b0c0,374,"TailCall_ReceiverIsAny"
+code-creation,Builtin,5,0x1bb1e8f3b240,293,"HandleFastApiCall"
+code-creation,Builtin,5,0x1bb1e8f3b380,200,"InOptimizationQueue"
+code-creation,Builtin,5,0x1bb1e8f3b460,318,"JSBuiltinsConstructStubForDerived"
+code-creation,Builtin,5,0x1bb1e8f3b5a0,261,"JSConstructStubApi"
+code-creation,Builtin,5,0x1bb1e8f3b6c0,234,"JSEntryTrampoline"
+code-creation,Builtin,5,0x1bb1e8f3b7c0,234,"JSConstructEntryTrampoline"
+code-creation,Builtin,5,0x1bb1e8f3b8c0,172,"CompileOptimized"
+code-creation,Builtin,5,0x1bb1e8f3b980,172,"CompileOptimizedConcurrent"
+code-creation,Builtin,5,0x1bb1e8f3ba40,211,"NotifyDeoptimized"
+code-creation,Builtin,5,0x1bb1e8f3bb20,221,"NotifySoftDeoptimized"
+code-creation,Builtin,5,0x1bb1e8f3bc00,221,"NotifyLazyDeoptimized"
+code-creation,Builtin,5,0x1bb1e8f3bce0,195,"NotifyStubFailure"
+code-creation,Builtin,5,0x1bb1e8f3bdc0,195,"NotifyStubFailureSaveDoubles"
+code-creation,Builtin,5,0x1bb1e8f3bea0,267,"InterpreterEntryTrampoline"
+code-creation,Builtin,5,0x1bb1e8f3bfc0,107,"InterpreterExitTrampoline"
+code-creation,Builtin,5,0x1bb1e8f3c040,138,"InterpreterPushArgsAndCall"
+code-creation,Builtin,5,0x1bb1e8f3c0e0,138,"InterpreterPushArgsAndTailCall"
+code-creation,Builtin,5,0x1bb1e8f3c180,136,"InterpreterPushArgsAndConstruct"
+code-creation,Builtin,5,0x1bb1e8f3c220,205,"InterpreterNotifyDeoptimized"
+code-creation,Builtin,5,0x1bb1e8f3c300,215,"InterpreterNotifySoftDeoptimized"
+code-creation,Builtin,5,0x1bb1e8f3c3e0,215,"InterpreterNotifyLazyDeoptimized"
+code-creation,Builtin,5,0x1bb1e8f3c4c0,156,"InterpreterEnterBytecodeDispatch"
+code-creation,Builtin,5,0x1bb1e8f3c560,122,"KeyedLoadIC_Miss"
+code-creation,Builtin,5,0x1bb1e8f3c5e0,125,"StoreIC_Miss"
+code-creation,Builtin,5,0x1bb1e8f3c660,125,"KeyedStoreIC_Miss"
+code-creation,LoadIC,10,0x1bb1e8f3c6e0,131,"A load IC from the snapshot"
+code-creation,StoreIC,13,0x1bb1e8f3c780,133,"A store IC from the snapshot"
+code-creation,KeyedStoreIC,14,0x1bb1e8f3c820,125,"A keyed store IC from the snapshot"
+code-creation,KeyedStoreIC,14,0x1bb1e8f3c8a0,125,"A keyed store IC from the snapshot"
+code-creation,KeyedStoreIC,14,0x1bb1e8f3c920,125,"A keyed store IC from the snapshot"
+code-creation,KeyedStoreIC,14,0x1bb1e8f3c9a0,125,"A keyed store IC from the snapshot"
+code-creation,Builtin,5,0x1bb1e8f3ca20,177,"OnStackReplacement"
+code-creation,Builtin,5,0x1bb1e8f3cae0,113,"InterruptCheck"
+code-creation,Builtin,5,0x1bb1e8f3cb60,113,"StackCheck"
+code-creation,Builtin,5,0x1bb1e8f3cbe0,206,"MarkCodeAsToBeExecutedOnce"
+code-creation,Builtin,5,0x1bb1e8f3ccc0,206,"MarkCodeAsExecutedOnce"
+code-creation,Builtin,5,0x1bb1e8f3cda0,197,"MarkCodeAsExecutedTwice"
+code-creation,Builtin,5,0x1bb1e8f3ce80,197,"MakeQuadragenarianCodeYoungAgainOddMarking"
+code-creation,Builtin,5,0x1bb1e8f3cf60,197,"MakeQuadragenarianCodeYoungAgainEvenMarking"
+code-creation,Builtin,5,0x1bb1e8f3d040,197,"MakeQuinquagenarianCodeYoungAgainOddMarking"
+code-creation,Builtin,5,0x1bb1e8f3d120,197,"MakeQuinquagenarianCodeYoungAgainEvenMarking"
+code-creation,Builtin,5,0x1bb1e8f3d200,197,"MakeSexagenarianCodeYoungAgainOddMarking"
+code-creation,Builtin,5,0x1bb1e8f3d2e0,197,"MakeSexagenarianCodeYoungAgainEvenMarking"
+code-creation,Builtin,5,0x1bb1e8f3d3c0,197,"MakeSeptuagenarianCodeYoungAgainOddMarking"
+code-creation,Builtin,5,0x1bb1e8f3d4a0,197,"MakeSeptuagenarianCodeYoungAgainEvenMarking"
+code-creation,Builtin,5,0x1bb1e8f3d580,197,"MakeOctogenarianCodeYoungAgainOddMarking"
+code-creation,Builtin,5,0x1bb1e8f3d660,197,"MakeOctogenarianCodeYoungAgainEvenMarking"
+code-creation,Handler,4,0x1bb1e8f3d740,120,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f3d7c0,120,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f3d840,125,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f3d8c0,125,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f3d940,278,"An IC handler from the snapshot"
+code-creation,Handler,4,0x1bb1e8f3da60,352,"An IC handler from the snapshot"
+code-creation,Builtin,5,0x1bb1e8f3dbc0,200,"Return_DebugBreak"
+code-creation,Builtin,5,0x1bb1e8f3dca0,211,"Slot_DebugBreak"
+code-creation,Builtin,5,0x1bb1e8f3dd80,203,"FrameDropper_LiveEdit"
+tick,0x1004f55c1,5607,0,0x0,1
+code-creation,LazyCompile,5,0x1bb1e8f34220,119," :1:1",0x31bd17348178,
+code-creation,LazyCompile,5,0x1bb1e8f345c0,119,"ThrowTypeError",0x31bd17383c98,
+code-creation,LazyCompile,5,0x1bb1e8f34640,119,"",0x31bd17383d80,
+code-creation,LazyCompile,5,0x1bb1e8f346c0,119,"assign",0x31bd17383ee8,
+code-creation,LazyCompile,5,0x1bb1e8f34740,119,"create",0x31bd17383fa8,
+code-creation,LazyCompile,5,0x1bb1e8f347c0,119,"freeze",0x31bd17384068,
+code-creation,LazyCompile,5,0x1bb1e8f34840,119,"getOwnPropertyDescriptor",0x31bd17384148,
+code-creation,LazyCompile,5,0x1bb1e8f348c0,119,"getOwnPropertyNames",0x31bd17384208,
+code-creation,LazyCompile,5,0x1bb1e8f34940,119,"getOwnPropertySymbols",0x31bd173842f8,
+code-creation,LazyCompile,5,0x1bb1e8f349c0,119,"is",0x31bd173843e8,
+code-creation,LazyCompile,5,0x1bb1e8f34a40,119,"isExtensible",0x31bd173844c8,
+code-creation,LazyCompile,5,0x1bb1e8f34ac0,119,"isFrozen",0x31bd17384588,
+code-creation,LazyCompile,5,0x1bb1e8f34b40,119,"isSealed",0x31bd17384668,
+code-creation,LazyCompile,5,0x1bb1e8f34bc0,119,"keys",0x31bd17384748,
+code-creation,LazyCompile,5,0x1bb1e8f34c40,119,"preventExtensions",0x31bd17384808,
+code-creation,LazyCompile,5,0x1bb1e8f34cc0,119,"seal",0x31bd173848c8,
+code-creation,LazyCompile,5,0x1bb1e8f34d40,507,"hasOwnProperty",0x31bd173849a8,
+code-creation,LazyCompile,5,0x1bb1e8f34f40,125,"Function",0x31bd17384a90,
+code-creation,LazyCompile,5,0x1bb1e8f34fc0,208,"apply",0x31bd17384b50,
+code-creation,LazyCompile,5,0x1bb1e8f35200,119,"bind",0x31bd17384c30,
+code-creation,LazyCompile,5,0x1bb1e8f35280,143,"call",0x31bd17384cf0,
+code-creation,LazyCompile,5,0x1bb1e8f35320,119,"toString",0x31bd17384db0,
+code-creation,LazyCompile,5,0x1bb1e8f353a0,144,"[Symbol.hasInstance]",0x31bd17384e70,
+code-creation,LazyCompile,5,0x1bb1e8f35440,116,"Array",0x31bd17384f60,
+code-creation,LazyCompile,5,0x1bb1e8f354c0,119,"isArray",0x31bd17385020,
+code-creation,LazyCompile,5,0x1bb1e8f35540,123,"Number",0x31bd17385100,
+code-creation,LazyCompile,5,0x1bb1e8f35720,119,"Boolean",0x31bd173851e0,
+code-creation,LazyCompile,5,0x1bb1e8f35820,119,"toString",0x31bd173852b8,
+code-creation,LazyCompile,5,0x1bb1e8f358a0,119,"valueOf",0x31bd17385378,
+code-creation,LazyCompile,5,0x1bb1e8f35920,167,"String",0x31bd17385438,
+code-creation,LazyCompile,5,0x1bb1e8f35b40,119,"fromCharCode",0x31bd17385518,
+code-creation,LazyCompile,5,0x1bb1e8f35bc0,119,"Symbol",0x31bd17385600,
+code-creation,LazyCompile,5,0x1bb1e8f35cc0,119,"Date",0x31bd173856d8,
+code-creation,LazyCompile,5,0x1bb1e8f35dc0,119,"now",0x31bd173857b0,
+code-creation,LazyCompile,5,0x1bb1e8f35e40,119,"parse",0x31bd17385890,
+code-creation,LazyCompile,5,0x1bb1e8f35ec0,119,"UTC",0x31bd17385950,
+code-creation,LazyCompile,5,0x1bb1e8f35f40,119,"toString",0x31bd17385a30,
+code-creation,LazyCompile,5,0x1bb1e8f35fc0,119,"toDateString",0x31bd17385af0,
+code-creation,LazyCompile,5,0x1bb1e8f36040,119,"toTimeString",0x31bd17385bd8,
+code-creation,LazyCompile,5,0x1bb1e8f360c0,119,"toISOString",0x31bd17385cc0,
+code-creation,LazyCompile,5,0x1bb1e8f36140,119,"toUTCString",0x31bd17385da8,
+code-creation,LazyCompile,5,0x1bb1e8f361c0,273,"getDate",0x31bd17385e90,
+code-creation,LazyCompile,5,0x1bb1e8f362e0,119,"setDate",0x31bd17385f78,
+code-creation,LazyCompile,5,0x1bb1e8f36360,273,"getDay",0x31bd17386058,
+code-creation,LazyCompile,5,0x1bb1e8f36480,273,"getFullYear",0x31bd17386140,
+code-creation,LazyCompile,5,0x1bb1e8f365a0,119,"setFullYear",0x31bd17386230,
+code-creation,LazyCompile,5,0x1bb1e8f36620,273,"getHours",0x31bd17386318,
+code-creation,LazyCompile,5,0x1bb1e8f36740,119,"setHours",0x31bd17386400,
+code-creation,LazyCompile,5,0x1bb1e8f367c0,247,"getMilliseconds",0x31bd173864e0,
+code-creation,LazyCompile,5,0x1bb1e8f368c0,119,"setMilliseconds",0x31bd173865c8,
+code-creation,LazyCompile,5,0x1bb1e8f36940,273,"getMinutes",0x31bd173866b0,
+code-creation,LazyCompile,5,0x1bb1e8f36a60,119,"setMinutes",0x31bd173867a0,
+code-creation,LazyCompile,5,0x1bb1e8f36ae0,273,"getMonth",0x31bd17386888,
+code-creation,LazyCompile,5,0x1bb1e8f36c00,119,"setMonth",0x31bd17386970,
+code-creation,LazyCompile,5,0x1bb1e8f36c80,273,"getSeconds",0x31bd17386a50,
+code-creation,LazyCompile,5,0x1bb1e8f36da0,119,"setSeconds",0x31bd17386b40,
+code-creation,LazyCompile,5,0x1bb1e8f36e20,175,"getTime",0x31bd17386c28,
+code-creation,LazyCompile,5,0x1bb1e8f36ee0,119,"setTime",0x31bd17386d08,
+code-creation,LazyCompile,5,0x1bb1e8f36f60,247,"getTimezoneOffset",0x31bd17386de8,
+code-creation,LazyCompile,5,0x1bb1e8f37060,247,"getUTCDate",0x31bd17386ed8,
+code-creation,LazyCompile,5,0x1bb1e8f37160,119,"setUTCDate",0x31bd17386fc0,
+code-creation,LazyCompile,5,0x1bb1e8f371e0,247,"getUTCDay",0x31bd173870a8,
+code-creation,LazyCompile,5,0x1bb1e8f372e0,247,"getUTCFullYear",0x31bd17387190,
+code-creation,LazyCompile,5,0x1bb1e8f373e0,119,"setUTCFullYear",0x31bd17387278,
+code-creation,LazyCompile,5,0x1bb1e8f37460,247,"getUTCHours",0x31bd17387360,
+code-creation,LazyCompile,5,0x1bb1e8f37560,119,"setUTCHours",0x31bd17387448,
+code-creation,LazyCompile,5,0x1bb1e8f375e0,247,"getUTCMilliseconds",0x31bd17387530,
+code-creation,LazyCompile,5,0x1bb1e8f376e0,119,"setUTCMilliseconds",0x31bd17387620,
+code-creation,LazyCompile,5,0x1bb1e8f37760,247,"getUTCMinutes",0x31bd17387710,
+code-creation,LazyCompile,5,0x1bb1e8f37860,119,"setUTCMinutes",0x31bd173877f8,
+code-creation,LazyCompile,5,0x1bb1e8f378e0,247,"getUTCMonth",0x31bd173878e0,
+code-creation,LazyCompile,5,0x1bb1e8f379e0,119,"setUTCMonth",0x31bd173879c8,
+code-creation,LazyCompile,5,0x1bb1e8f37a60,247,"getUTCSeconds",0x31bd17387ab0,
+code-creation,LazyCompile,5,0x1bb1e8f37b60,119,"setUTCSeconds",0x31bd17387b98,
+code-creation,LazyCompile,5,0x1bb1e8f37be0,119,"valueOf",0x31bd17387c80,
+code-creation,LazyCompile,5,0x1bb1e8f37c60,119,"getYear",0x31bd17387d40,
+code-creation,LazyCompile,5,0x1bb1e8f37ce0,119,"setYear",0x31bd17387e20,
+code-creation,LazyCompile,5,0x1bb1e8f37d60,119,"[Symbol.toPrimitive]",0x31bd17387f48,
+code-creation,LazyCompile,5,0x1bb1e8f34640,119,"JSON",0x31bd17388038,
+code-creation,LazyCompile,5,0x1bb1e8f34640,119,"Math",0x31bd17388100,
+code-creation,LazyCompile,5,0x1bb1e8f37de0,119,"acos",0x31bd173881c8,
+code-creation,LazyCompile,5,0x1bb1e8f37e60,119,"asin",0x31bd173882a8,
+code-creation,LazyCompile,5,0x1bb1e8f37ee0,119,"atan",0x31bd17388388,
+code-creation,LazyCompile,5,0x1bb1e8f37f60,622,"ceil",0x31bd17388468,
+code-creation,LazyCompile,5,0x1bb1e8f381e0,247,"clz32",0x31bd17388550,
+code-creation,LazyCompile,5,0x1bb1e8f382e0,622,"floor",0x31bd17388630,
+code-creation,LazyCompile,5,0x1bb1e8f38560,119,"fround",0x31bd17388718,
+code-creation,LazyCompile,5,0x1bb1e8f385e0,119,"imul",0x31bd173887f8,
+code-creation,LazyCompile,5,0x1bb1e8f38660,327,"max",0x31bd173888d8,
+code-creation,LazyCompile,5,0x1bb1e8f387c0,327,"min",0x31bd173889b8,
+code-creation,LazyCompile,5,0x1bb1e8f38920,710,"round",0x31bd17388a98,
+code-creation,LazyCompile,5,0x1bb1e8f38c00,414,"sqrt",0x31bd17388b80,
+code-creation,LazyCompile,5,0x1bb1e8f38da0,622,"trunc",0x31bd17388c68,
+code-creation,LazyCompile,5,0x1bb1e8f39020,124,"ArrayBuffer",0x31bd17388d50,
+code-creation,LazyCompile,5,0x1bb1e8f39120,119,"isView",0x31bd17388e50,
+code-creation,LazyCompile,5,0x1bb1e8f391a0,119,"DataView",0x31bd17388f10,
+code-creation,LazyCompile,5,0x1bb1e8f392a0,119,"Proxy",0x31bd17389008,
+code-creation,LazyCompile,5,0x1bb1e8f393a0,119,"defineProperty",0x31bd173890e0,
+code-creation,LazyCompile,5,0x1bb1e8f39420,119,"deleteProperty",0x31bd173891a0,
+code-creation,LazyCompile,5,0x1bb1e8f394a0,195,"apply",0x31bd17389260,
+code-creation,LazyCompile,5,0x1bb1e8f39580,237,"construct",0x31bd17389320,
+code-creation,LazyCompile,5,0x1bb1e8f39680,119,"get",0x31bd173893e8,
+code-creation,LazyCompile,5,0x1bb1e8f39700,119,"getOwnPropertyDescriptor",0x31bd173894a8,
+code-creation,LazyCompile,5,0x1bb1e8f39780,119,"getPrototypeOf",0x31bd17389568,
+code-creation,LazyCompile,5,0x1bb1e8f39800,119,"has",0x31bd17389628,
+code-creation,LazyCompile,5,0x1bb1e8f39880,119,"isExtensible",0x31bd173896e8,
+code-creation,LazyCompile,5,0x1bb1e8f39900,119,"ownKeys",0x31bd173897a8,
+code-creation,LazyCompile,5,0x1bb1e8f39980,119,"preventExtensions",0x31bd17389868,
+code-creation,LazyCompile,5,0x1bb1e8f39a00,119,"set",0x31bd17389928,
+code-creation,LazyCompile,5,0x1bb1e8f39a80,119,"setPrototypeOf",0x31bd173899e8,
+code-creation,LazyCompile,5,0x1bb1e8f34640,119,"Arguments",0x31bd17389aa8,
+code-creation,LazyCompile,5,0x1bb1e8f39b00,119,"ThrowTypeError",0x31bd17389b50,
+code-creation,LazyCompile,5,0x1bb1e8f34640,119,"",0x31bd17389c10,
+code-creation,LazyCompile,5,0x1bb1e8f39b80,119,"",0x31bd17389ce8,
+code-creation,LazyCompile,5,0x1bb1e8f39c00,119,"",0x31bd17389da8,
+code-creation,LazyCompile,5,0x1bb1e8f39c80,112,"InternalPackedArray",0x31bd17389e68,
+code-creation,LazyCompile,5,0x1bb1e8f39d00,119,"toString",0x31bd17389f58,
+code-creation,LazyCompile,5,0x1bb1e8f39d80,125,"GeneratorFunction",0x31bd1738a018,
+code-creation,LazyCompile,5,0x1bb1e8f34640,119,"",0x31bd1738a108,
+code-creation,LazyCompile,5,0x1bb1e8f39c80,112,"InternalArray",0x31bd1738a1b0,
+code-creation,LazyCompile,5,0x1bb1e8f39c80,112,"InternalPackedArray",0x31bd1738a280,
+code-creation,LazyCompile,5,0x1bb1e8f39e00,119,"pop",0x31bd1738a328,
+code-creation,LazyCompile,3,0x1bb1e8f2b800,2205,"push",0x31bd1738a408,
+code-creation,LazyCompile,5,0x1bb1e8f39e80,119,"shift",0x31bd1738a4d0,
+code-creation,LazyCompile,5,0x1bb1e8f39f00,119,"unshift",0x31bd1738a5b0,
+code-creation,LazyCompile,5,0x1bb1e8f39f80,119,"slice",0x31bd1738a690,
+code-creation,LazyCompile,5,0x1bb1e8f3a000,119,"splice",0x31bd1738a750,
+code-creation,LazyCompile,5,0x1bb1e8f3a080,124,"eval",0x31bd1738a830,
+code-creation,LazyCompile,5,0x1bb1e8f3a100,119,"concat",0x31bd1738a8f0,
+code-creation,LazyCompile,5,0x1bb1e8f3a100,119,"concat",0x31bd1738a9b0,
+tick,0x1007c6e54,6675,0,0x0,3
+tick,0x1001ed1f0,8108,0,0x0,2
+code-creation,Function,0,0x1bb1e8f3de60,1820," native harmony-regexp-exec.js:2:10",0x31bd173cfa50,~
+code-creation,Script,0,0x1bb1e8f3e580,228,"native harmony-regexp-exec.js",0x31bd173cf958,~
+code-creation,LazyCompile,0,0x1bb1e8f3e680,212,"ImportNow native prologue.js:20:19",0x31bd17348e10,~
+tick,0x0,9135,0,0x0,0
+code-creation,Stub,4,0x1bb1e8f3e760,120,"LoadConstantStub"
+code-creation,Stub,4,0x1bb1e8f3e7e0,120,"LoadConstantStub"
+code-creation,Stub,4,0x1bb1e8f3e860,120,"LoadConstantStub"
+code-creation,Stub,4,0x1bb1e8f3e8e0,120,"LoadConstantStub"
+code-creation,Stub,4,0x1bb1e8f3e960,120,"LoadConstantStub"
+code-creation,Stub,4,0x1bb1e8f3e9e0,116,"LoadFieldStub"
+code-creation,Stub,4,0x1bb1e8f3ea60,116,"LoadFieldStub"
+code-creation,LazyCompile,0,0x1bb1e8f3eae0,412,"OverrideFunction native prologue.js:80:26",0x31bd173498d0,~
+code-creation,LazyCompile,0,0x1bb1e8f3ec80,404,"SetFunctionName native prologue.js:27:25",0x31bd173490a0,~
+code-creation,Stub,15,0x1bb1e8f3ee20,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,Stub,15,0x1bb1e8f3eea0,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,Function,0,0x1bb1e8f3ef20,1340," native harmony-species.js:2:10",0x31bd173d0c40,~
+code-creation,Script,0,0x1bb1e8f3f460,228,"native harmony-species.js",0x31bd173d0b70,~
+tick,0x100637957,10822,0,0x7fff5fbfe727,2,0x1006d0ab0,0x1bb1e8f3ebf6,0x1bb1e8f3e2d8
+code-creation,LazyCompile,0,0x1bb1e8f3f560,220,"get __proto__ native v8natives.js:603:24",0x31bd1734dc40,~
+code-creation,Stub,4,0x1bb1e8f3f640,116,"LoadFieldStub"
+code-creation,LazyCompile,0,0x1bb1e8f3f6c0,412,"InstallGetter native prologue.js:61:23",0x31bd173495d0,~
+code-creation,Stub,15,0x1bb1e8f3f860,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,Stub,15,0x1bb1e8f3f8e0,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,Function,0,0x1bb1e8f3f960,580," native harmony-unicode-regexps.js:2:10",0x31bd173d1e38,~
+code-creation,Script,0,0x1bb1e8f3fbc0,228,"native harmony-unicode-regexps.js",0x31bd173d1d68,~
+code-creation,LazyCompile,0,0x1bb1e8f3fcc0,276,"Import native prologue.js:16:16",0x31bd17348cd8,~
+code-creation,Function,0,0x1bb1e8f3fde0,836," native promise-extra.js:2:10",0x31bd173d26e0,~
+code-creation,Script,0,0x1bb1e8f40140,228,"native promise-extra.js",0x31bd173d2610,~
+code-creation,Stub,4,0x1bb1e8f40240,120,"LoadConstantStub"
+code-creation,Stub,4,0x1bb1e8f402c0,120,"LoadConstantStub"
+code-creation,Stub,4,0x1bb1e8f40340,120,"LoadConstantStub"
+tick,0x0,13291,0,0x0,0
+code-creation,LazyCompile,0,0x1bb1e8f403c0,744,"InstallFunctions native prologue.js:48:26",0x31bd173493f0,~
+code-creation,LazyCompile,0,0x1bb1e8f406c0,948,"PostExperimentals native prologue.js:179:27",0x31bd17349fa8,~
+code-creation,LazyCompile,0,0x1bb1e8f40a80,268," native harmony-unicode-regexps.js:8:18",0x31bd173d2078,~
+tick,0x1005cbbc1,14436,0,0x6a18,2,0x1006d0ab0,0x1bb1e8f40864
+code-creation,LazyCompile,0,0x1bb1e8f40ba0,268," native array.js:36:34",0x31bd17355c18,~
+code-creation,LazyCompile,0,0x1bb1e8f40cc0,268," native runtime.js:16:34",0x31bd1734af08,~
+code-creation,LazyCompile,0,0x1bb1e8f40de0,292,"b.CreateDoubleResultArray native fdlibm.js:15:35",0x31bd1735cd38,~
+tick,0x1005cbbc1,15501,0,0xb098,2,0x1006d0ab0,0x1bb1e8f40e8b,0x1bb1e8f40953
+code-creation,LazyCompile,0,0x1bb1e8f40f20,1180,"Float64Array native typedarray.js:1263:33",0x31bd1736a440,~
+code-creation,Stub,16,0x1bb1e8f413c0,700,"CompareICStub"
+code-creation,LazyCompile,0,0x1bb1e8f41680,668,"Float64ArrayConstructByLength native typedarray.js:1206:39",0x31bd17366ab0,~
+code-creation,LazyCompile,0,0x1bb1e8f41920,364,"ToPositiveInteger native runtime.js:27:27",0x31bd1734ab10,~
+code-creation,Stub,16,0x1bb1e8f41aa0,194,"CompareICStub"
+tick,0x1005f2b01,16662,0,0x0,4
+tick,0x7fff6b5ae0de,17930,0,0x0,4
+tick,0x7fff6b5ae140,18931,0,0x0,4
+tick,0x7fff6b5ae140,19964,0,0x0,4
+tick,0x7fff6b5ae180,21057,0,0x0,4
+tick,0x7fff6b5ae143,22207,0,0x0,4
+tick,0x7fff6b5ae140,23284,0,0x0,4
+tick,0x10019859f,24450,0,0x0,2
+code-creation,Stub,3,0x1bb1e8f41b80,571,"FastCloneShallowObjectStub"
+code-creation,Function,0,0x1bb1e8f41dc0,2492," bootstrap_node.js:10:10",0x31bd173dd108,~
+code-creation,Script,0,0x1bb1e8f42780,228,"bootstrap_node.js",0x31bd173dd038,~
+tick,0x1005f6154,25455,0,0x7fff5fbff330,0,0x10053f640,0x1bb1e8f4228d
+code-creation,LazyCompile,0,0x1bb1e8f42880,452,"some native array.js:971:19",0x31bd173547e8,~
+code-creation,LazyCompile,0,0x1bb1e8f42a60,848,"InnerArraySome native array.js:960:24",0x31bd17354740,~
+code-creation,Stub,4,0x1bb1e8f42dc0,328,"LoadFastElementStub"
+code-creation,Stub,3,0x1bb1e8f42f20,423,"FastCloneRegExpStub"
+code-creation,LazyCompile,0,0x1bb1e8f430e0,276," bootstrap_node.js:450:58",0x31bd173de198,~
+code-creation,LazyCompile,0,0x1bb1e8f43200,644,"match native string.js:105:23",0x31bd17357630,~
+code-creation,LazyCompile,0,0x1bb1e8f434a0,1112,"[Symbol.match] native regexp.js:430:29",0x31bd1735f000,~
+code-creation,LazyCompile,0,0x1bb1e8f43900,460,"get global native regexp.js:808:25",0x31bd1735fc98,~
+code-creation,Stub,17,0x1bb1e8f43ae0,200,"ToBooleanICStub(Smi)"
+code-creation,LazyCompile,0,0x1bb1e8f43bc0,532,"RegExpSubclassExec native regexp.js:207:28",0x31bd1735e9a8,~
+tick,0x1005cbbbc,27397,0,0x4432,2,0x1006d0ab0,0x1bb1e8f4338e,0x1bb1e8f431a8,0x1bb1e8f42c8b,0x1bb1e8f429f5,0x1bb1e8f42460
+code-creation,Stub,3,0x1bb1e8f43de0,1499,"RecordWriteStub"
+code-creation,Stub,3,0x1bb1e8f443c0,911,"RegExpExecStub"
+code-creation,Stub,3,0x1bb1e8f44760,2340,"RecordWriteStub"
+code-creation,Stub,3,0x1bb1e8f450a0,862,"RegExpConstructResultStub"
+code-creation,LazyCompile,0,0x1bb1e8f45400,1648,"exec native regexp.js:116:30",0x31bd1735e838,~
+code-creation,RegExp,6,0x1bb1e8f45a80,1018,"^--expose[-_]internals$"
+code-creation,Stub,17,0x1bb1e8f45e80,192,"ToBooleanICStub(Null)"
+tick,0x0,29253,0,0x0,2
+tick,0x10063fb6e,31560,0,0x7fff5fbfa5e0,2,0x1006d0ab0,0x1bb1e8f42739
+tick,0x10063fb6e,31621,0,0x7fff5fbfa5e0,2,0x1006d0ab0,0x1bb1e8f42739
+tick,0x7fff8c49a01c,32516,0,0x7fff5fbfe2d0,2,0x1006d0ab0,0x1bb1e8f42739
+code-creation,LazyCompile,0,0x1bb1e8f45f40,7756,"startup bootstrap_node.js:12:19",0x31bd173dd3f8,~
+tick,0x7fff8c49a064,33537,0,0x7fff5fbfef80,2,0x1006d0ab0,0x1bb1e8f46036,0x1bb1e8f42739
+code-creation,LazyCompile,0,0x1bb1e8f47da0,1116,"NativeModule.require bootstrap_node.js:418:34",0x31bd173ddf58,~
+code-creation,LazyCompile,0,0x1bb1e8f48200,244,"NativeModule.getCached bootstrap_node.js:442:36",0x31bd173de018,~
+code-creation,LazyCompile,0,0x1bb1e8f48300,292,"NativeModule.exists bootstrap_node.js:446:33",0x31bd173de0d8,~
+code-creation,Stub,15,0x1bb1e8f48440,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,Stub,15,0x1bb1e8f484c0,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,LazyCompile,0,0x1bb1e8f48540,428,"NativeModule bootstrap_node.js:407:24",0x31bd173dddb8,~
+code-creation,Stub,15,0x1bb1e8f48700,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,Stub,15,0x1bb1e8f48780,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,LazyCompile,0,0x1bb1e8f48800,268,"NativeModule.cache bootstrap_node.js:504:42",0x31bd173de6d8,~
+code-disable-optimization,"NativeModule.compile","TryFinallyStatement"
+code-creation,LazyCompile,0,0x1bb1e8f48920,908,"NativeModule.compile bootstrap_node.js:484:44",0x31bd173de618,
+tick,0x0,34567,0,0x0,2
+code-creation,LazyCompile,0,0x1bb1e8f48cc0,244,"NativeModule.getSource bootstrap_node.js:471:36",0x31bd173de498,~
+code-creation,LazyCompile,0,0x1bb1e8f48dc0,332,"NativeModule.wrap bootstrap_node.js:475:31",0x31bd173de558,~
+code-creation,Stub,15,0x1bb1e8f48f20,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,Stub,15,0x1bb1e8f48fa0,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,LazyCompile,0,0x1bb1e8f49020,364,"runInThisContext bootstrap_node.js:402:28",0x31bd173ddcf8,~
+tick,0x10020004b,35595,1,0x1008ddb10,2,0x1001cef30,0x1bb1e8f490fc,0x1bb1e8f48b34,0x1bb1e8f481bc,0x1bb1e8f46036,0x1bb1e8f42739
+code-creation,Stub,3,0x1bb1e8f491a0,575,"FastNewContextStub"
+code-creation,Function,0,0x1bb1e8f493e0,3196," events.js:1:11",0x31bd173e6ef0,~
+code-creation,Script,0,0x1bb1e9006000,228,"events.js",0x31bd173e6e20,~
+code-creation,Handler,4,0x1bb1e9006100,161,"undefined"
+code-creation,Handler,4,0x1bb1e90061c0,171,"Object"
+code-creation,Stub,3,0x1bb1e9006280,156,"ToNameStub"
+code-creation,LazyCompile,0,0x1bb1e9006320,516,"defineProperty native v8natives.js:573:30",0x31bd1734dac8,~
+tick,0x0,36660,0,0x0,0
+code-creation,LazyCompile,0,0x1bb1e9006540,548,"setPrototypeOf native v8natives.js:563:30",0x31bd1734da20,~
+code-creation,LazyCompile,0,0x1bb1e9006780,284,"EventEmitter events.js:11:22",0x31bd173e7468,~
+code-creation,LazyCompile,0,0x1bb1e90068a0,1484,"EventEmitter.init events.js:42:29",0x31bd173e7ee8,~
+code-creation,LazyCompile,0,0x1bb1e9006e80,220,"getPrototypeOf native v8natives.js:560:30",0x31bd1734d978,~
+code-creation,Stub,16,0x1bb1e9006f60,700,"CompareICStub"
+code-creation,LazyCompile,0,0x1bb1e9007220,276,"setupProcessObject bootstrap_node.js:194:30",0x31bd173dd4b8,~
+tick,0x100641700,37722,0,0x7fff5fbfefb0,2,0x1006d0ab0,0x1bb1e8f4640d,0x1bb1e8f42739
+code-creation,LazyCompile,0,0x1bb1e9007340,244,"setupProcessFatal bootstrap_node.js:288:29",0x31bd173dd878,~
+code-creation,LazyCompile,0,0x1bb1e9007440,788,"setupGlobalVariables bootstrap_node.js:203:32",0x31bd173dd578,~
+code-creation,Stub,4,0x1bb1e9007760,120,"LoadConstantStub"
+code-creation,Stub,4,0x1bb1e90077e0,120,"LoadConstantStub"
+code-creation,Stub,3,0x1bb1e9007860,1258,"NameDictionaryLookupStub"
+code-creation,Handler,4,0x1bb1e9007d60,585,"hasOwnProperty"
+code-creation,Handler,4,0x1bb1e9007fc0,164,"push"
+code-creation,Stub,4,0x1bb1e9008080,264,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e90081a0,200,"filename"
+code-creation,Stub,4,0x1bb1e9008280,264,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e90083a0,200,"id"
+code-creation,Stub,4,0x1bb1e9008480,264,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e90085a0,200,"exports"
+code-creation,Stub,4,0x1bb1e9008680,264,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e90087a0,200,"loaded"
+code-creation,Stub,4,0x1bb1e9008880,264,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e90089a0,200,"loading"
+code-creation,Handler,4,0x1bb1e9008a80,164,"cache"
+code-creation,Handler,4,0x1bb1e9008b40,224,"util"
+code-creation,Handler,4,0x1bb1e9008c20,164,"compile"
+code-creation,Stub,4,0x1bb1e9008ce0,120,"LoadConstantStub"
+code-creation,Stub,4,0x1bb1e9008d60,120,"LoadConstantStub"
+code-creation,Stub,4,0x1bb1e9008de0,212,"StoreFieldStub"
+code-creation,Stub,4,0x1bb1e9008ec0,212,"StoreFieldStub"
+tick,0x100665756,39053,1,0x1008ddb10,2,0x1001cef30,0x1bb1e8f490fc,0x1bb1e8f48b34,0x1bb1e8f481bc,0x1bb1e900755b,0x1bb1e8f46434,0x1bb1e8f42739
+tick,0x10018a13d,40229,1,0x1008ddb10,2,0x1001cef30,0x1bb1e8f490fc,0x1bb1e8f48b34,0x1bb1e8f481bc,0x1bb1e900755b,0x1bb1e8f46434,0x1bb1e8f42739
+code-creation,Stub,3,0x1bb1e9008fa0,963,"FastNewContextStub"
+code-creation,Function,0,0x1bb1e9009380,6880," util.js:1:11",0x31bd173ed720,~
+code-creation,Script,0,0x1bb1e900ae60,228,"util.js",0x31bd173ed650,~
+code-creation,Handler,4,0x1bb1e900af60,164,"runInThisContext"
+code-creation,Handler,4,0x1bb1e900b020,224,"buffer"
+tick,0x10066211a,41435,1,0x1008ddb10,2,0x1001cef30,0x1bb1e8f490fc,0x1bb1e8f48b34,0x1bb1e8f481bc,0x1bb1e9009d58,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e900755b,0x1bb1e8f46434,0x1bb1e8f42739
+tick,0x100197a36,42489,1,0x1008ddb10,2,0x1001cef30,0x1bb1e8f490fc,0x1bb1e8f48b34,0x1bb1e8f481bc,0x1bb1e9009d58,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e900755b,0x1bb1e8f46434,0x1bb1e8f42739
+code-creation,Stub,3,0x1bb1e900b100,915,"FastNewContextStub"
+code-creation,Function,0,0x1bb1e900b4a0,10572," buffer.js:1:11",0x31bd173f4170,~
+code-creation,Script,0,0x1bb1e900de00,228,"buffer.js",0x31bd173f40a0,~
+code-creation,Handler,4,0x1bb1e900df00,171,"process"
+code-creation,Handler,4,0x1bb1e900dfc0,224,"internal/util"
+tick,0x100479cd6,43770,1,0x1008ddb10,3,0x1001cef30,0x1bb1e8f490fc,0x1bb1e8f48b34,0x1bb1e8f481bc,0x1bb1e900be37,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e9009d58,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e900755b,0x1bb1e8f46434,0x1bb1e8f42739
+tick,0x100644a1a,44847,1,0x1008ddb10,2,0x1001cef30,0x1bb1e8f490fc,0x1bb1e8f48b34,0x1bb1e8f481bc,0x1bb1e900be37,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e9009d58,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e900755b,0x1bb1e8f46434,0x1bb1e8f42739
+code-creation,Stub,12,0x1bb1e900e0a0,464,"CallICStub(args(1), NULL_OR_UNDEFINED, "
+tick,0x7fff888ed7ba,46291,1,0x1008ddb10,2,0x1001cef30,0x1bb1e8f490fc,0x1bb1e8f48b34,0x1bb1e8f481bc,0x1bb1e900be37,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e9009d58,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e900755b,0x1bb1e8f46434,0x1bb1e8f42739
+code-creation,Stub,12,0x1bb1e900e280,113,"CallICTrampolineStub"
+code-creation,Function,0,0x1bb1e900e300,2124," internal/util.js:1:11",0x2786ac70e590,~
+code-creation,Script,0,0x1bb1e900eb60,228,"internal/util.js",0x2786ac70e4c0,~
+code-creation,Stub,15,0x1bb1e900ec60,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,Stub,15,0x1bb1e900ece0,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,Stub,15,0x1bb1e900ed60,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,Stub,15,0x1bb1e900ede0,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,Stub,17,0x1bb1e900ee60,220,"ToBooleanICStub(String)"
+code-creation,Handler,4,0x1bb1e900ef40,171,"Symbol"
+code-creation,Stub,4,0x1bb1e900f000,212,"StoreFieldStub"
+tick,0x7fff888ed7ba,47422,0,0x7fff8aaabe96,0,0x1005407a0,0x1bb1e8f48bf6,0x1bb1e8f481bc,0x1bb1e900be37,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e9009d58,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e900755b,0x1bb1e8f46434,0x1bb1e8f42739
+code-creation,Stub,15,0x1bb1e900f0e0,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,LazyCompile,0,0x1bb1e900f160,444,"createPool buffer.js:45:20",0x2786ac704d78,~
+code-disable-optimization,"createUnsafeBuffer","TryFinallyStatement"
+code-creation,LazyCompile,0,0x1bb1e900f320,660,"createUnsafeBuffer buffer.js:36:28",0x2786ac704cb8,
+code-creation,Stub,3,0x1bb1e900f5c0,188,"DoubleToIStub"
+code-creation,Stub,4,0x1bb1e900f680,432,"StoreFastElementStub"
+code-creation,LazyCompile,0,0x1bb1e900f840,332,"FastBuffer buffer.js:11:14",0x2786ac705bb8,~
+code-creation,LazyCompile,0,0x1bb1e900f9a0,1180,"Uint8Array native typedarray.js:241:31",0x31bd17369e90,~
+code-creation,LazyCompile,0,0x1bb1e900fe40,668,"Uint8ArrayConstructByLength native typedarray.js:184:37",0x31bd173641b8,~
+code-creation,Handler,4,0x1bb1e90100e0,171,"Uint8Array"
+code-creation,Stub,4,0x1bb1e90101a0,112,"LoadFieldStub"
+code-creation,Stub,17,0x1bb1e9010220,228,"ToBooleanICStub(Undefined,SpecObject)"
+code-creation,LazyCompile,0,0x1bb1e9010320,260,"exports.deprecate internal/util.js:15:29",0x2786ac70e8f0,~
+tick,0x0,48675,0,0x0,2
+code-creation,LazyCompile,0,0x1bb1e9010440,796,"exports._deprecate internal/util.js:49:30",0x2786ac70ebf0,~
+code-creation,Stub,16,0x1bb1e9010760,700,"CompareICStub"
+code-creation,Handler,4,0x1bb1e9010a20,171,"global"
+code-creation,Handler,4,0x1bb1e9010ae0,231,"process"
+code-creation,Handler,4,0x1bb1e9010be0,566,"noDeprecation"
+code-creation,Handler,4,0x1bb1e9010e20,205,"prototype"
+code-creation,Handler,4,0x1bb1e9010f00,205,"prototype"
+code-creation,Handler,4,0x1bb1e9010fe0,205,"prototype"
+code-creation,LazyCompile,0,0x1bb1e90110c0,444,"forEach native array.js:954:22",0x31bd173545a8,~
+code-creation,LazyCompile,0,0x1bb1e9011280,1292,"InnerArrayForEach native array.js:935:27",0x31bd17354348,~
+code-creation,LazyCompile,0,0x1bb1e90117a0,868," bootstrap_node.js:208:40",0x31bd173eaa60,~
+code-creation,Stub,15,0x1bb1e9011b20,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,Stub,15,0x1bb1e9011ba0,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,Handler,4,0x1bb1e9011c20,205,"prototype"
+code-creation,Stub,15,0x1bb1e9011d00,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,Stub,15,0x1bb1e9011d80,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,Handler,4,0x1bb1e9011e00,205,"prototype"
+code-creation,Handler,4,0x1bb1e9011ee0,205,"prototype"
+code-creation,Handler,4,0x1bb1e9011fc0,205,"prototype"
+code-creation,Stub,4,0x1bb1e90120a0,212,"StoreFieldStub"
+code-creation,LazyCompile,0,0x1bb1e9012180,836,"setupGlobalTimeouts bootstrap_node.js:231:31",0x31bd173dd638,~
+code-creation,Handler,4,0x1bb1e90124e0,224,"timers"
+tick,0x7fff8c499f49,49905,1,0x1008ddb10,2,0x1001cef30,0x1bb1e8f490fc,0x1bb1e8f48b34,0x1bb1e8f481bc,0x1bb1e901224e,0x1bb1e8f4648e,0x1bb1e8f42739
+tick,0x7fff8f1fd78d,51010,1,0x1008ddb10,2,0x1001cef30,0x1bb1e8f490fc,0x1bb1e8f48b34,0x1bb1e8f481bc,0x1bb1e901224e,0x1bb1e8f4648e,0x1bb1e8f42739
+code-creation,Stub,3,0x1bb1e90125c0,811,"FastNewContextStub"
+code-creation,Function,0,0x1bb1e9012900,3900," timers.js:1:11",0x2786ac719188,~
+code-creation,Script,0,0x1bb1e9013840,228,"timers.js",0x2786ac7190b8,~
+code-creation,Stub,4,0x1bb1e9013940,272,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e9013a60,224,"internal/linkedlist"
+code-creation,Function,0,0x1bb1e9013b40,660," internal/linkedlist.js:1:11",0x2786ac71c778,~
+code-creation,Script,0,0x1bb1e9013de0,228,"internal/linkedlist.js",0x2786ac71c6a8,~
+code-creation,Stub,4,0x1bb1e9013ee0,272,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e9014000,224,"assert"
+tick,0x100644924,52269,1,0x1008ddb10,2,0x1001cef30,0x1bb1e8f490fc,0x1bb1e8f48b34,0x1bb1e8f481bc,0x1bb1e9012fa2,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e901224e,0x1bb1e8f4648e,0x1bb1e8f42739
+code-creation,Function,0,0x1bb1e90140e0,2444," assert.js:1:11",0x2786ac71dbd0,~
+code-creation,Script,0,0x1bb1e9014a80,228,"assert.js",0x2786ac71db00,~
+code-creation,LazyCompile,0,0x1bb1e9014b80,940,"exports.inherits util.js:950:28",0x31bd173f03e8,~
+code-creation,LazyCompile,0,0x1bb1e9014f40,1108,"exports.debuglog util.js:139:28",0x31bd173f00e8,~
+code-creation,LazyCompile,0,0x1bb1e90153a0,364,"toUpperCase native string.js:356:29",0x31bd17357ed0,~
+code-creation,Stub,15,0x1bb1e9015520,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,Stub,15,0x1bb1e90155a0,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+tick,0x7fff888ed7ba,53343,0,0x7fff8aaabe96,0,0x100543670,0x1bb1e90151a8,0x1bb1e901305e,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e901224e,0x1bb1e8f4648e,0x1bb1e8f42739
+code-creation,LazyCompile,0,0x1bb1e9015620,788,"RegExp native regexp.js:54:27",0x31bd173607e8,~
+code-creation,LazyCompile,0,0x1bb1e9015940,388,"IsRegExp native regexp.js:35:18",0x31bd1735e208,~
+code-creation,LazyCompile,0,0x1bb1e9015ae0,340,"RegExpInitialize native regexp.js:41:26",0x31bd1735e2b0,~
+code-creation,LazyCompile,0,0x1bb1e9015c40,428,"test native regexp.js:260:28",0x31bd1735eb18,~
+code-creation,Handler,4,0x1bb1e9015e00,164,"exec"
+code-creation,RegExp,6,0x1bb1e9015ec0,969,"\\bTIMER\\b"
+code-creation,Stub,4,0x1bb1e90162a0,160,"StoreFieldStub"
+code-creation,LazyCompile,0,0x1bb1e9016340,260,"ImmediateList timers.js:545:23",0x2786ac719ef8,~
+tick,0x7fff8c55f4ab,54578,0,0x100587e8c,2,0x1006d0ab0,0x1bb1e8f464b5,0x1bb1e8f42739
+code-creation,LazyCompile,0,0x1bb1e9016460,756,"setupGlobalConsole bootstrap_node.js:241:30",0x31bd173dd6f8,~
+code-creation,Stub,4,0x1bb1e9016760,571,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e90169a0,224,"internal/process"
+tick,0x100661276,55748,1,0x1008ddb10,2,0x1001cef30,0x1bb1e8f490fc,0x1bb1e8f48b34,0x1bb1e8f481bc,0x1bb1e8f4650c,0x1bb1e8f42739
+code-creation,Function,0,0x1bb1e9016a80,940," internal/process.js:1:11",0x2786ac722f50,~
+code-creation,Script,0,0x1bb1e9016e40,228,"internal/process.js",0x2786ac722e80,~
+code-creation,LazyCompile,0,0x1bb1e9016f40,564,"setup_hrtime internal/process.js:80:22",0x2786ac723280,~
+tick,0x7fff8c55f5eb,56802,0,0x10303a688,2,0x1006d0ab0,0x1bb1e8f46554,0x1bb1e8f42739
+code-creation,LazyCompile,0,0x1bb1e9017180,1180,"Uint32Array native typedarray.js:825:32",0x31bd1736a1d0,~
+code-creation,LazyCompile,0,0x1bb1e9017620,668,"Uint32ArrayConstructByLength native typedarray.js:768:38",0x31bd17365958,~
+code-creation,LazyCompile,0,0x1bb1e90178c0,564,"setup_cpuUsage internal/process.js:28:24",0x2786ac7231c0,~
+code-creation,LazyCompile,0,0x1bb1e9017b00,564,"setupMemoryUsage internal/process.js:104:26",0x2786ac723340,~
+code-creation,LazyCompile,0,0x1bb1e9017d40,1748,"setupConfig internal/process.js:119:21",0x2786ac723400,~
+code-creation,LazyCompile,0,0x1bb1e9018420,908,"split native string.js:280:23",0x31bd17357ac8,~
+code-creation,Stub,16,0x1bb1e90187c0,700,"CompareICStub"
+code-creation,Stub,16,0x1bb1e9018a80,296,"CompareICStub"
+code-creation,LazyCompile,0,0x1bb1e9018bc0,444,"join native array.js:347:19",0x31bd17353458,~
+code-creation,LazyCompile,0,0x1bb1e9018d80,460,"InnerArrayJoin native array.js:334:24",0x31bd173533b0,~
+code-disable-optimization,"Join","TryFinallyStatement"
+code-creation,LazyCompile,0,0x1bb1e9018f60,716,"Join native array.js:172:14",0x31bd17352d20,
+code-creation,LazyCompile,0,0x1bb1e9019240,568,"StackHas native array.js:120:18",0x31bd17352bd0,~
+code-creation,LazyCompile,0,0x1bb1e9019480,324,"StackPush native array.js:114:19",0x31bd17352a80,~
+code-creation,LazyCompile,0,0x1bb1e90195e0,2272,"DoJoin native array.js:129:16",0x31bd17352c78,~
+code-creation,LazyCompile,0,0x1bb1e9019ec0,580,"UseSparseVariant native array.js:95:26",0x31bd17352888,~
+code-creation,LazyCompile,0,0x1bb1e901a120,324,"StackPop native array.js:117:18",0x31bd17352b28,~
+code-creation,LazyCompile,0,0x1bb1e901a280,1284,"replace native string.js:132:23",0x31bd173577c8,~
+tick,0x7fff8c499fe9,58082,0,0x7fff5fbfe930,2,0x1006d0ab0,0x1bb1e9017f59,0x1bb1e8f46648,0x1bb1e8f42739
+code-creation,Stub,3,0x1bb1e901a7a0,450,"ToIntegerStub"
+code-creation,LazyCompile,0,0x1bb1e901a980,3220,"[Symbol.replace] native regexp.js:659:31",0x31bd1735f568,~
+code-creation,LazyCompile,0,0x1bb1e901b620,460,"get unicode native harmony-unicode-regexps.js:11:26",0x31bd173d1fb8,~
+code-creation,Stub,16,0x1bb1e901b800,214,"CompareICStub"
+code-creation,LazyCompile,0,0x1bb1e901b8e0,1220,"[Symbol.replace] native regexp.js:540:23",0x31bd1735f2a0,~
+code-creation,Handler,4,0x1bb1e901bdc0,164,symbol("Symbol.replace" hash 13635fc)
+tick,0x7fff81c3c9c2,59316,0,0x7fff5fbfeb80,0,0x10053f640,0x1bb1e901aabe,0x1bb1e901a413,0x1bb1e9017fce,0x1bb1e8f46648,0x1bb1e8f42739
+code-creation,Stub,4,0x1bb1e901be80,112,"LoadFieldStub"
+code-creation,Handler,4,0x1bb1e901bf00,218,"global"
+code-creation,Handler,4,0x1bb1e901bfe0,218,"unicode"
+code-creation,LazyCompile,0,0x1bb1e901c0c0,420,"parse native json.js:61:19",0x31bd1737a870,~
+code-creation,LazyCompile,0,0x1bb1e901c280,1268,"InternalizeJSONProperty native json.js:32:33",0x31bd1737a7c8,~
+tick,0x100640610,60474,0,0x7fff5fbfe857,2,0x1006d0ab0,0x1bb1e901c712,0x1bb1e901c5a7,0x1bb1e901c5a7,0x1bb1e901c207,0x1bb1e901806a,0x1bb1e8f46648,0x1bb1e8f42739
+code-creation,LazyCompile,0,0x1bb1e901c780,308," internal/process.js:132:47",0x2786ac724d70,~
+code-creation,Stub,16,0x1bb1e901c8c0,700,"CompareICStub"
+code-creation,LazyCompile,0,0x1bb1e901cb80,324,"CreateDataProperty native json.js:28:28",0x31bd1737a720,~
+code-creation,Stub,4,0x1bb1e901cce0,116,"LoadFieldStub"
+code-creation,Stub,4,0x1bb1e901cd60,116,"LoadFieldStub"
+code-creation,Stub,4,0x1bb1e901cde0,116,"LoadFieldStub"
+code-creation,Stub,4,0x1bb1e901ce60,116,"LoadFieldStub"
+code-creation,Stub,4,0x1bb1e901cee0,116,"LoadFieldStub"
+code-creation,Stub,4,0x1bb1e901cf60,116,"LoadFieldStub"
+tick,0x1001439bb,61927,0,0x1af044e8e159,0,0x10053fd40,0x1bb1e901c318,0x1bb1e901c5a7,0x1bb1e901c5a7,0x1bb1e901c207,0x1bb1e901806a,0x1bb1e8f46648,0x1bb1e8f42739
+code-creation,Stub,4,0x1bb1e901cfe0,116,"LoadFieldStub"
+code-creation,Stub,4,0x1bb1e901d060,116,"LoadFieldStub"
+code-creation,Stub,4,0x1bb1e901d0e0,116,"LoadFieldStub"
+code-creation,Stub,4,0x1bb1e901d160,116,"LoadFieldStub"
+code-creation,Stub,4,0x1bb1e901d1e0,116,"LoadFieldStub"
+code-creation,Stub,4,0x1bb1e901d260,116,"LoadFieldStub"
+code-creation,Stub,4,0x1bb1e901d2e0,116,"LoadFieldStub"
+code-creation,Stub,4,0x1bb1e901d360,116,"LoadFieldStub"
+code-creation,Stub,4,0x1bb1e901d3e0,116,"LoadFieldStub"
+code-creation,Stub,4,0x1bb1e901d460,116,"LoadFieldStub"
+code-creation,Stub,4,0x1bb1e901d4e0,116,"LoadFieldStub"
+code-creation,Stub,4,0x1bb1e901d560,116,"LoadFieldStub"
+tick,0x100825fbe,62959,0,0x0,0,0x10053fd40,0x1bb1e901c318,0x1bb1e901c5a7,0x1bb1e901c5a7,0x1bb1e901c207,0x1bb1e901806a,0x1bb1e8f46648,0x1bb1e8f42739
+code-creation,Stub,4,0x1bb1e901d5e0,116,"LoadFieldStub"
+code-creation,Stub,4,0x1bb1e901d660,116,"LoadFieldStub"
+code-creation,Stub,4,0x1bb1e901d6e0,116,"LoadFieldStub"
+code-creation,Handler,4,0x1bb1e901d760,171,"Intl"
+code-creation,Stub,4,0x1bb1e901d820,272,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e901d940,224,"internal/process/warning"
+code-creation,Function,0,0x1bb1e901da20,1044," internal/process/warning.js:1:11",0x2786ac729158,~
+code-creation,Script,0,0x1bb1e901de40,228,"internal/process/warning.js",0x2786ac729088,~
+code-creation,Stub,15,0x1bb1e901df40,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,Stub,15,0x1bb1e901dfc0,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,Stub,15,0x1bb1e901e040,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,Stub,15,0x1bb1e901e0c0,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,LazyCompile,0,0x1bb1e901e140,476,"setupProcessWarnings internal/process/warning.js:11:30",0x2786ac7292f8,~
+code-creation,LazyCompile,0,0x1bb1e901e320,268,"addListener events.js:274:58",0x31bd173e81e8,~
+code-creation,LazyCompile,0,0x1bb1e901e440,2148,"_addListener events.js:210:22",0x31bd173e79a8,~
+code-creation,Stub,4,0x1bb1e901ecc0,272,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e901ede0,224,"internal/process/next_tick"
+tick,0x100199ed4,64238,1,0x1008ddb10,2,0x1001cef30,0x1bb1e8f490fc,0x1bb1e8f48b34,0x1bb1e8f481bc,0x1bb1e8f46737,0x1bb1e8f42739
+code-creation,Function,0,0x1bb1e901eec0,348," internal/process/next_tick.js:1:11",0x2786ac72a9c8,~
+code-creation,Script,0,0x1bb1e901f020,228,"internal/process/next_tick.js",0x2786ac72a8f8,~
+code-creation,Stub,3,0x1bb1e901f120,487,"FastNewContextStub"
+code-creation,LazyCompile,0,0x1bb1e901f320,1556,"setupNextTick internal/process/next_tick.js:11:23",0x2786ac72aae0,~
+code-creation,Stub,4,0x1bb1e901f940,571,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e901fb80,224,"internal/process/promises"
+code-creation,Function,0,0x1bb1e901fc60,868," internal/process/promises.js:1:11",0x2786ac72beb0,~
+code-creation,Script,0,0x1bb1e901ffe0,228,"internal/process/promises.js",0x2786ac72bde0,~
+code-disable-optimization,"WeakMap","TryCatchStatement"
+code-creation,LazyCompile,0,0x1bb1e90200e0,1928,"WeakMap native weak-collection.js:17:28",0x31bd17371bd0,
+code-creation,Handler,4,0x1bb1e9020880,171,"WeakMap"
+tick,0x10019952b,65325,0,0x0,2,0x1006d0ab0,0x1bb1e901f585,0x1bb1e8f46778,0x1bb1e8f42739
+code-creation,LazyCompile,0,0x1bb1e9020940,516,"setupPromises internal/process/promises.js:16:23",0x2786ac72c0e8,~
+code-creation,Stub,4,0x1bb1e9020b60,272,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e9020c80,224,"internal/process/stdio"
+tick,0x10047c336,66414,1,0x1008ddb10,2,0x1001cef30,0x1bb1e8f490fc,0x1bb1e8f48b34,0x1bb1e8f481bc,0x1bb1e8f467cf,0x1bb1e8f42739
+code-creation,Function,0,0x1bb1e9020d60,348," internal/process/stdio.js:1:11",0x2786ac72d7f0,~
+code-creation,Script,0,0x1bb1e9020ec0,228,"internal/process/stdio.js",0x2786ac72d720,~
+code-creation,LazyCompile,0,0x1bb1e9020fc0,1068,"setupStdio internal/process/stdio.js:5:20",0x2786ac72d908,~
+code-creation,LazyCompile,0,0x1bb1e9021400,364,"setupKillAndExit internal/process.js:156:26",0x2786ac7234c0,~
+code-creation,LazyCompile,0,0x1bb1e9021580,596,"setupSignalHandlers internal/process.js:198:29",0x2786ac723580,~
+code-creation,Handler,4,0x1bb1e90217e0,189,"newListener"
+tick,0x100665756,67940,0,0x7fff5fbfee00,2,0x1006d0ab0,0x1bb1e901e6d2,0x1bb1e901e3de,0x1bb1e902178e,0x1bb1e8f46898,0x1bb1e8f42739
+code-creation,Stub,3,0x1bb1e90218a0,378,"FastNewStrictArgumentsStub"
+code-creation,Stub,12,0x1bb1e9021a20,464,"CallICStub(args(6), ANY, "
+code-creation,Stub,12,0x1bb1e9021c00,113,"CallICTrampolineStub"
+code-creation,LazyCompile,0,0x1bb1e9021c80,3192,"emit events.js:136:44",0x31bd173e8128,~
+code-creation,Stub,4,0x1bb1e9022900,264,"LoadFastElementStub"
+code-creation,LazyCompile,0,0x1bb1e9022a20,664,"emitTwo events.js:104:17",0x31bd173e7768,~
+code-creation,LazyCompile,0,0x1bb1e9022cc0,1220," internal/process.js:209:37",0x2786ac72eb88,~
+code-creation,LazyCompile,0,0x1bb1e90231a0,364,"isSignal internal/process.js:203:20",0x2786ac72eac8,~
+code-creation,LazyCompile,0,0x1bb1e9023320,436,"lazyConstants internal/process.js:5:23",0x2786ac723100,~
+tick,0x7fff8aa68d2e,69104,1,0x1008c7d55,3,0x1001cef30,0x1bb1e9023411,0x1bb1e902327d,0x1bb1e9022d76,0x1bb1e9022af3,0x1bb1e902261b,0x1bb1e901e6d2,0x1bb1e901e3de,0x1bb1e902178e,0x1bb1e8f46898,0x1bb1e8f42739
+code-creation,Handler,4,0x1bb1e90234e0,189,"removeListener"
+code-creation,Stub,16,0x1bb1e90235a0,426,"CompareICStub"
+code-creation,Stub,12,0x1bb1e9023760,464,"CallICStub(args(2), NULL_OR_UNDEFINED, "
+code-creation,Stub,12,0x1bb1e9023940,113,"CallICTrampolineStub"
+code-creation,LazyCompile,0,0x1bb1e90239c0,1076,"setupChannel internal/process.js:240:22",0x2786ac723640,~
+code-creation,LazyCompile,0,0x1bb1e9023e00,556,"setupRawDebug internal/process.js:263:23",0x2786ac723700,~
+code-creation,Stub,4,0x1bb1e9024040,272,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e9024160,224,"path"
+tick,0x10063b236,70376,1,0x1008ddb10,2,0x1001cef30,0x1bb1e8f490fc,0x1bb1e8f48b34,0x1bb1e8f481bc,0x1bb1e8f47327,0x1bb1e8f42739
+tick,0x1006611a7,71675,1,0x1008ddb10,2,0x1001cef30,0x1bb1e8f490fc,0x1bb1e8f48b34,0x1bb1e8f481bc,0x1bb1e8f47327,0x1bb1e8f42739
+tick,0x10018a45d,72932,1,0x1008ddb10,2,0x1001cef30,0x1bb1e8f490fc,0x1bb1e8f48b34,0x1bb1e8f481bc,0x1bb1e8f47327,0x1bb1e8f42739
+code-creation,Function,0,0x1bb1e9024240,2124," path.js:1:11",0x2786ac7344f8,~
+code-creation,Script,0,0x1bb1e9024aa0,228,"path.js",0x2786ac734428,~
+code-creation,LazyCompile,0,0x1bb1e9024ba0,1440,"resolve path.js:1131:28",0x2786ac735570,~
+code-creation,LazyCompile,0,0x1bb1e9025140,420,"assertPath path.js:5:20",0x2786ac734a30,~
+code-creation,Stub,15,0x1bb1e9025300,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,Stub,15,0x1bb1e9025380,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,LazyCompile,0,0x1bb1e9025400,1116,"charCodeAt native string.js:50:28",0x31bd17357278,~
+code-creation,Handler,4,0x1bb1e9025860,185,"charCodeAt"
+code-creation,Stub,16,0x1bb1e9025920,172,"CompareICStub"
+code-creation,LazyCompile,0,0x1bb1e90259e0,3588,"normalizeStringPosix path.js:78:30",0x2786ac734bb0,~
+code-creation,Stub,16,0x1bb1e9026800,194,"CompareICStub"
+code-creation,LazyCompile,0,0x1bb1e90268e0,860,"slice native string.js:246:21",0x31bd17357a00,~
+tick,0x7fff8aaad397,74064,0,0x103800c9a,2,0x1006d0ab0,0x1bb1e90265c9,0x1bb1e9024ffd,0x1bb1e8f473e3,0x1bb1e8f42739
+code-creation,Stub,15,0x1bb1e9026c40,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,Stub,15,0x1bb1e9026cc0,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,Handler,4,0x1bb1e9026d40,185,"slice"
+code-creation,Stub,15,0x1bb1e9026e00,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,Stub,4,0x1bb1e9026e80,571,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e90270c0,224,"module"
+tick,0x0,75305,0,0x0,2
+code-creation,Function,0,0x1bb1e90271a0,5524," module.js:1:11",0x2786ac7383d8,~
+code-creation,Script,0,0x1bb1e9028740,228,"module.js",0x2786ac738308,~
+code-creation,Stub,4,0x1bb1e9028840,272,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e9028960,224,"internal/module"
+code-creation,Function,0,0x1bb1e9028a40,604," internal/module.js:1:11",0x2786ac73a748,~
+code-creation,Script,0,0x1bb1e9028ca0,228,"internal/module.js",0x2786ac73a678,~
+code-creation,Stub,4,0x1bb1e9028da0,272,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e9028ec0,224,"vm"
+code-creation,Function,0,0x1bb1e9028fa0,1676," vm.js:1:11",0x2786ac73b388,~
+code-creation,Script,0,0x1bb1e9029640,228,"vm.js",0x2786ac73b2b8,~
+tick,0x10040df73,76439,0,0x100be9990,0,0x100541760,0x1bb1e8f488d1,0x1bb1e8f48178,0x1bb1e9027770,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e8f4744b,0x1bb1e8f42739
+code-creation,Stub,4,0x1bb1e9029740,571,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e9029980,224,"fs"
+tick,0x10063b30b,78237,1,0x1008ddb10,2,0x1001cef30,0x1bb1e8f490fc,0x1bb1e8f48b34,0x1bb1e8f481bc,0x1bb1e9027770,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e8f4744b,0x1bb1e8f42739
+tick,0x10063b1c9,78951,1,0x1008ddb10,2,0x1001cef30,0x1bb1e8f490fc,0x1bb1e8f48b34,0x1bb1e8f481bc,0x1bb1e9027770,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e8f4744b,0x1bb1e8f42739
+tick,0x10066458e,80087,1,0x1008ddb10,2,0x1001cef30,0x1bb1e8f490fc,0x1bb1e8f48b34,0x1bb1e8f481bc,0x1bb1e9027770,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e8f4744b,0x1bb1e8f42739
+tick,0x100642b76,81366,1,0x1008ddb10,2,0x1001cef30,0x1bb1e8f490fc,0x1bb1e8f48b34,0x1bb1e8f481bc,0x1bb1e9027770,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e8f4744b,0x1bb1e8f42739
+tick,0x100198c49,82385,1,0x1008ddb10,2,0x1001cef30,0x1bb1e8f490fc,0x1bb1e8f48b34,0x1bb1e8f481bc,0x1bb1e9027770,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e8f4744b,0x1bb1e8f42739
+code-disable-optimization,"","TryCatchStatement"
+code-creation,Function,0,0x1bb1e9029a60,17108," fs.js:1:11",0x2786ac73ef28,
+code-creation,Script,0,0x1bb1e902dd40,228,"fs.js",0x2786ac73ee58,~
+code-creation,Handler,4,0x1bb1e902de40,164,"runInThisContext"
+code-creation,LazyCompile,0,0x1bb1e902df00,476,"Script.runInThisContext vm.js:19:45",0x2786ac73bc00,~
+tick,0x100149b84,83658,1,0x1008c7d55,3,0x1001cef30,0x1bb1e902a60c,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e9027770,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e8f4744b,0x1bb1e8f42739
+code-creation,Stub,4,0x1bb1e902e0e0,272,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e902e200,224,"stream"
+code-creation,Function,0,0x1bb1e902e2e0,684," stream.js:1:11",0x2786ac74c688,~
+code-creation,Script,0,0x1bb1e902e5a0,228,"stream.js",0x2786ac74c5b8,~
+code-creation,Handler,4,0x1bb1e902e6a0,164,"call"
+code-creation,Stub,4,0x1bb1e902e760,272,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e902e880,224,"internal/streams/legacy"
+code-creation,Function,0,0x1bb1e902e960,588," internal/streams/legacy.js:1:11",0x2786ac74ceb0,~
+code-creation,Script,0,0x1bb1e902ebc0,228,"internal/streams/legacy.js",0x2786ac74cde0,~
+code-creation,Handler,4,0x1bb1e902ecc0,200,"super_"
+tick,0x10065f5b6,84936,1,0x1008ddb10,2,0x1001cef30,0x1bb1e8f490fc,0x1bb1e8f48b34,0x1bb1e8f481bc,0x1bb1e902e3da,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e902a735,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e9027770,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e8f4744b,0x1bb1e8f42739
+code-creation,Stub,3,0x1bb1e902eda0,847,"FastNewContextStub"
+code-creation,Function,0,0x1bb1e902f100,3940," _stream_readable.js:1:11",0x2786ac74e498,~
+code-creation,Script,0,0x1bb1e9030080,228,"_stream_readable.js",0x2786ac74e3c8,~
+code-creation,Handler,4,0x1bb1e9030180,185,"toUpperCase"
+code-creation,Handler,4,0x1bb1e9030240,171,"RegExp"
+code-creation,Handler,4,0x1bb1e9030300,164,"test"
+code-creation,RegExp,6,0x1bb1e90303c0,991,"\\bSTREAM\\b"
+code-creation,Function,0,0x1bb1e90307a0,932," internal/streams/BufferList.js:1:11",0x2786ac750e18,~
+code-creation,Script,0,0x1bb1e9030b60,228,"internal/streams/BufferList.js",0x2786ac750d48,~
+code-creation,Handler,4,0x1bb1e9030c60,212,"super_"
+tick,0x100661b0d,86196,1,0x1008ddb10,2,0x1001cef30,0x1bb1e8f490fc,0x1bb1e8f48b34,0x1bb1e8f481bc,0x1bb1e902e426,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e902a735,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e9027770,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e8f4744b,0x1bb1e8f42739
+code-creation,Stub,3,0x1bb1e9030d40,691,"FastNewContextStub"
+code-creation,Stub,10,0x1bb1e9031000,514,"LoadICTrampolineStub"
+code-creation,Function,0,0x1bb1e9031220,3796," _stream_writable.js:1:11",0x2786ac752eb0,~
+code-creation,Script,0,0x1bb1e9032100,228,"_stream_writable.js",0x2786ac752de0,~
+code-creation,Stub,4,0x1bb1e9032200,112,"LoadFieldStub"
+code-creation,Handler,4,0x1bb1e9032280,212,"super_"
+code-creation,Stub,15,0x1bb1e9032360,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,Handler,4,0x1bb1e90323e0,205,"prototype"
+code-creation,Stub,17,0x1bb1e90324c0,208,"ToBooleanICStub(Symbol)"
+code-creation,Function,0,0x1bb1e90325a0,1344," _stream_duplex.js:1:11",0x2786ac755c60,~
+code-creation,Script,0,0x1bb1e9032ae0,228,"_stream_duplex.js",0x2786ac755b90,~
+tick,0x10018a7d0,87401,1,0x1008ddb10,2,0x1001cef30,0x1bb1e8f490fc,0x1bb1e8f48b34,0x1bb1e8f481bc,0x1bb1e902e4be,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e902a735,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e9027770,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e8f4744b,0x1bb1e8f42739
+code-creation,Function,0,0x1bb1e9032be0,1084," _stream_transform.js:1:11",0x2786ac7569b0,~
+code-creation,Script,0,0x1bb1e9033020,228,"_stream_transform.js",0x2786ac7568e0,~
+code-creation,Function,0,0x1bb1e9033120,628," _stream_passthrough.js:1:11",0x2786ac757978,~
+code-creation,Script,0,0x1bb1e90333a0,228,"_stream_passthrough.js",0x2786ac7578a8,~
+code-creation,LazyCompile,0,0x1bb1e90334a0,500," fs.js:218:50",0x2786ac741fd8,~
+tick,0x10051f360,90946,0,0x0,1
+tick,0x10051f360,92350,0,0x0,1
+tick,0x10051f360,96467,0,0x0,1
+tick,0x10051f360,97296,0,0x0,1
+tick,0x1007ce81c,97803,0,0x0,1
+tick,0x1004d5f67,99261,0,0x0,1
+tick,0x10051a51a,100166,0,0x0,1
+tick,0x1bb1e902ed20,101295,0,0x1bb1e9014e46,0,0x1bb1e902ce2b,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e9027770,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e8f4744b,0x1bb1e8f42739
+code-disable-optimization,"Map","TryCatchStatement"
+code-creation,LazyCompile,0,0x1bb1e90336a0,1928,"Map native collection.js:221:24",0x31bd17370ac8,
+code-creation,RegExp,6,0x1bb1e9033e40,991,"\\bMODULE\\b"
+code-creation,Handler,4,0x1bb1e9034220,205,"prototype"
+code-creation,LazyCompile,0,0x1bb1e9034300,1780,"Module._initPaths module.js:609:29",0x2786ac739a70,~
+code-creation,LazyCompile,0,0x1bb1e9034a00,412,"preloadModules bootstrap_node.js:364:26",0x31bd173ddab8,~
+code-creation,LazyCompile,0,0x1bb1e9034ba0,532,"run bootstrap_node.js:374:15",0x31bd173ddc38,~
+code-creation,LazyCompile,0,0x1bb1e9034dc0,468,"Module.runMain module.js:602:26",0x2786ac7399b0,~
+code-creation,LazyCompile,0,0x1bb1e9034fa0,1212,"Module._load module.js:412:24",0x2786ac7393b0,~
+code-creation,LazyCompile,0,0x1bb1e9035460,868,"Module._resolveFilename module.js:455:35",0x2786ac739470,~
+code-creation,LazyCompile,0,0x1bb1e90357e0,388,"NativeModule.nonInternalExists bootstrap_node.js:461:46",0x31bd173de318,~
+tick,0x100636f50,102610,0,0x10122af48,2,0x1006d0ab0,0x1bb1e90355dd,0x1bb1e90350fa,0x1bb1e9034eea,0x1bb1e9034d70,0x1bb1e8f47916,0x1bb1e8f42739
+code-creation,LazyCompile,0,0x1bb1e9035980,4868,"Module._resolveLookupPaths module.js:314:38",0x2786ac7392f0,~
+code-creation,LazyCompile,0,0x1bb1e9036ca0,180,"debugs.(anonymous function) util.js:151:29",0x2786ac7203d0,~
+code-creation,LazyCompile,0,0x1bb1e9036d60,3712,"Module._findPath module.js:151:28",0x2786ac7390b0,~
+code-creation,LazyCompile,0,0x1bb1e9037be0,460,"isAbsolute path.js:1199:34",0x2786ac7356f0,~
+code-creation,LazyCompile,0,0x1bb1e9037dc0,2608,"stringify native json.js:176:23",0x31bd1737ab30,~
+code-creation,LazyCompile,0,0x1bb1e9038800,716,"stat module.js:23:14",0x2786ac738ab0,~
+code-creation,LazyCompile,0,0x1bb1e9038ae0,204,"_makeLong path.js:1318:32",0x2786ac735930,~
+code-creation,LazyCompile,0,0x1bb1e9038bc0,476,"toRealPath module.js:132:20",0x2786ac738e70,~
+code-creation,Stub,3,0x1bb1e9038da0,415,"FastNewContextStub"
+tick,0x10083ccaa,103839,0,0x1,2,0x1006d0ab0,0x1bb1e9038d50,0x1bb1e9037454,0x1bb1e90356d7,0x1bb1e90350fa,0x1bb1e9034eea,0x1bb1e9034d70,0x1bb1e8f47916,0x1bb1e8f42739
+code-creation,LazyCompile,0,0x1bb1e9038f40,4744,"realpathSync fs.js:1606:40",0x2786ac745758,~
+code-creation,LazyCompile,0,0x1bb1e903a1e0,660,"nullCheck fs.js:133:19",0x2786ac740488,~
+code-creation,Stub,15,0x1bb1e903a480,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,LazyCompile,0,0x1bb1e903a500,564,"indexOf native string.js:68:23",0x31bd17357410,~
+code-creation,LazyCompile,0,0x1bb1e903a740,468,"toString native string.js:30:24",0x31bd17357060,~
+code-creation,LazyCompile,0,0x1bb1e903a920,764,"get native collection.js:239:16",0x31bd173702a8,~
+code-creation,LazyCompile,0,0x1bb1e903ac20,708,"GetExistingHash native collection.js:75:25",0x31bd1736f860,~
+code-creation,LazyCompile,0,0x1bb1e903af00,1288,"MapFindEntry native collection.js:45:22",0x31bd1736f710,~
+code-creation,LazyCompile,0,0x1bb1e903b420,276,"HashToEntry native collection.js:22:21",0x31bd1736f5c0,~
+code-creation,LazyCompile,0,0x1bb1e903b540,996,"start fs.js:1639:17",0x2786ac7624f0,~
+code-creation,RegExp,6,0x1bb1e903b940,843,"^[/]*"
+code-creation,Stub,4,0x1bb1e903bca0,292,"LoadFastElementStub"
+code-creation,RegExp,6,0x1bb1e903bde0,1162,"(.*?)(?:[/]+|$)"
+code-creation,Stub,15,0x1bb1e903c280,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,Stub,15,0x1bb1e903c300,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,Stub,16,0x1bb1e903c380,700,"CompareICStub"
+code-creation,LazyCompile,0,0x1bb1e903c640,540,"fs.lstatSync fs.js:992:24",0x2786ac743b98,~
+code-creation,Handler,4,0x1bb1e903c860,185,"indexOf"
+code-creation,LazyCompile,0,0x1bb1e903c920,1636,"statsFromValues fs.js:978:25",0x2786ac740fc8,~
+code-creation,Stub,4,0x1bb1e903cfa0,487,"LoadFastElementStub"
+code-creation,LazyCompile,0,0x1bb1e903d1a0,980,"Stats fs.js:150:15",0x2786ac740608,~
+code-creation,Handler,4,0x1bb1e903d580,171,"Date"
+tick,0x10019a1ff,105152,0,0x103807b98,2,0x1006d0ab0,0x1bb1e90399e7,0x1bb1e9038d50,0x1bb1e9037454,0x1bb1e90356d7,0x1bb1e90350fa,0x1bb1e9034eea,0x1bb1e9034d70,0x1bb1e8f47916,0x1bb1e8f42739
+code-creation,LazyCompile,0,0x1bb1e903d640,324,"fs.Stats.isSymbolicLink fs.js:205:45",0x2786ac741d98,~
+code-creation,LazyCompile,0,0x1bb1e903d7a0,340,"fs.Stats._checkModeProperty fs.js:185:49",0x2786ac7419d8,~
+code-creation,LazyCompile,0,0x1bb1e903d900,1548,"set native collection.js:252:16",0x31bd17370350,~
+code-creation,Stub,16,0x1bb1e903df20,708,"CompareICStub"
+code-creation,LazyCompile,0,0x1bb1e903e200,404,"GetHash native collection.js:91:17",0x31bd1736f908,~
+tick,0x0,106256,0,0x0,0
+code-creation,Handler,4,0x1bb1e903e3a0,164,"get"
+code-creation,Stub,4,0x1bb1e903e460,120,"LoadConstantStub"
+code-creation,Stub,4,0x1bb1e903e4e0,112,"LoadFieldStub"
+code-creation,Stub,16,0x1bb1e903e560,590,"CompareICStub"
+code-creation,Stub,16,0x1bb1e903e7c0,347,"CompareICStub"
+code-creation,Stub,4,0x1bb1e903e920,256,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e903ea20,192,"dev"
+code-creation,Stub,4,0x1bb1e903eae0,256,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e903ebe0,192,"mode"
+code-creation,Stub,4,0x1bb1e903eca0,256,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e903eda0,192,"nlink"
+code-creation,Stub,4,0x1bb1e903ee60,256,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e903ef60,192,"uid"
+code-creation,Stub,4,0x1bb1e903f020,256,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e903f120,192,"gid"
+code-creation,Stub,4,0x1bb1e903f1e0,256,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e903f2e0,192,"rdev"
+code-creation,Stub,4,0x1bb1e903f3a0,256,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e903f4a0,192,"blksize"
+code-creation,Stub,4,0x1bb1e903f560,256,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e903f660,192,"ino"
+code-creation,Stub,4,0x1bb1e903f720,256,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e903f820,192,"size"
+code-creation,Stub,4,0x1bb1e903f8e0,256,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e903f9e0,192,"blocks"
+code-creation,Stub,4,0x1bb1e903faa0,264,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e903fbc0,224,"atime"
+code-creation,Stub,4,0x1bb1e903fca0,264,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e903fdc0,224,"mtime"
+code-creation,Stub,4,0x1bb1e903fea0,264,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e903ffc0,224,"ctime"
+code-creation,Stub,4,0x1bb1e90400a0,264,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e90401c0,224,"birthtime"
+code-creation,Handler,4,0x1bb1e90402a0,164,"isSymbolicLink"
+code-creation,Handler,4,0x1bb1e9040360,164,"_checkModeProperty"
+code-creation,Stub,4,0x1bb1e9040420,279,"LoadFieldStub"
+code-creation,Handler,4,0x1bb1e9040540,164,"set"
+code-creation,Stub,16,0x1bb1e9040600,426,"CompareICStub"
+tick,0x10019a1a6,107308,0,0x103807e50,2,0x1006d0ab0,0x1bb1e903b0be,0x1bb1e903ab5b,0x1bb1e9039844,0x1bb1e9038d50,0x1bb1e9037454,0x1bb1e90356d7,0x1bb1e90350fa,0x1bb1e9034eea,0x1bb1e9034d70,0x1bb1e8f47916,0x1bb1e8f42739
+code-creation,LazyCompile,0,0x1bb1e90407c0,380,"isNaN native v8natives.js:729:21",0x31bd1734e548,~
+code-creation,LazyCompile,0,0x1bb1e9040940,676,"encodeRealpathResult fs.js:1591:30",0x2786ac741448,~
+code-creation,LazyCompile,0,0x1bb1e9040c00,604,"Module module.js:37:16",0x2786ac738b70,~
+code-disable-optimization,"tryModuleLoad","TryFinallyStatement"
+code-creation,LazyCompile,0,0x1bb1e9040e60,468,"tryModuleLoad module.js:443:23",0x2786ac738ff0,
+code-creation,LazyCompile,0,0x1bb1e9041040,1084,"Module.load module.js:478:33",0x2786ac739530,~
+code-creation,LazyCompile,0,0x1bb1e9041480,340,"ok assert.js:100:12",0x2786ac71e0e0,~
+code-creation,LazyCompile,0,0x1bb1e90415e0,1184,"dirname path.js:1323:28",0x2786ac7359f0,~
+code-creation,LazyCompile,0,0x1bb1e9041a80,1464,"Module._nodeModulePaths module.js:273:37",0x2786ac739230,~
+tick,0x0,108373,0,0x0,0
+code-creation,Stub,4,0x1bb1e9042040,284,"LoadFastElementStub"
+code-creation,Stub,15,0x1bb1e9042160,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,LazyCompile,0,0x1bb1e90421e0,1632,"extname path.js:1430:28",0x2786ac735b70,~
+code-creation,LazyCompile,0,0x1bb1e9042840,500,"Module._extensions..js module.js:577:37",0x2786ac739770,~
+tick,0x1008112f9,109433,0,0x31a7,2,0x1006d0ab0,0x1bb1e904292e,0x1bb1e9041412,0x1bb1e9040f3d,0x1bb1e9035422,0x1bb1e9034eea,0x1bb1e9034d70,0x1bb1e8f47916,0x1bb1e8f42739
+code-creation,Stub,3,0x1bb1e9042a40,555,"FastCloneShallowObjectStub"
+code-creation,LazyCompile,0,0x1bb1e9042c80,2652,"fs.readFileSync fs.js:495:27",0x2786ac7425d8,~
+code-creation,LazyCompile,0,0x1bb1e90436e0,444,"assertEncoding fs.js:127:24",0x2786ac7403c8,~
+code-creation,LazyCompile,0,0x1bb1e90438a0,412,"Buffer.isEncoding buffer.js:288:29",0x2786ac7060f8,~
+code-creation,LazyCompile,0,0x1bb1e9043a40,1536,"normalizeEncoding internal/util.js:141:55",0x2786ac70f130,~
+code-creation,LazyCompile,0,0x1bb1e9044040,236,"isFd fs.js:145:14",0x2786ac740548,~
+code-creation,Stub,15,0x1bb1e9044140,203,"BinaryOpICStub(SHR:Generic*Smi->Smi)"
+code-creation,Stub,16,0x1bb1e9044220,709,"CompareICStub"
+tick,0x100536f2c,110677,0,0x0,0,0x100544b20,0x1bb1e9042f0b,0x1bb1e904292e,0x1bb1e9041412,0x1bb1e9040f3d,0x1bb1e9035422,0x1bb1e9034eea,0x1bb1e9034d70,0x1bb1e8f47916,0x1bb1e8f42739
+code-creation,LazyCompile,0,0x1bb1e9044500,556,"fs.openSync fs.js:638:23",0x2786ac7428d8,~
+code-creation,LazyCompile,0,0x1bb1e9044740,476,"modeNum fs.js:613:17",0x2786ac740e48,~
+code-creation,LazyCompile,0,0x1bb1e9044920,3308,"stringToFlags fs.js:559:23",0x2786ac740d88,~
+code-disable-optimization,"tryStatSync","TryFinallyStatement"
+code-creation,LazyCompile,0,0x1bb1e9045620,596,"tryStatSync fs.js:459:21",0x2786ac740b48,
+code-creation,LazyCompile,0,0x1bb1e9045880,388,"fs.fstatSync fs.js:987:24",0x2786ac743ad8,~
+code-creation,LazyCompile,0,0x1bb1e9045a20,324,"fs.Stats.isFile fs.js:193:37",0x2786ac741b58,~
+tick,0x1005cce1b,112018,0,0x7fff5fbfeb90,2,0x1006d0ab0,0x1bb1e90430d0,0x1bb1e904292e,0x1bb1e9041412,0x1bb1e9040f3d,0x1bb1e9035422,0x1bb1e9034eea,0x1bb1e9034d70,0x1bb1e8f47916,0x1bb1e8f42739
+code-disable-optimization,"tryCreateBuffer","TryFinallyStatement"
+code-creation,LazyCompile,0,0x1bb1e9045b80,596,"tryCreateBuffer fs.js:471:25",0x2786ac740c08,
+code-creation,LazyCompile,0,0x1bb1e9045de0,268,"Buffer.allocUnsafe buffer.js:140:30",0x2786ac705df8,~
+code-creation,LazyCompile,0,0x1bb1e9045f00,460,"assertSize buffer.js:107:20",0x2786ac704fb8,~
+code-creation,LazyCompile,0,0x1bb1e90460e0,780,"allocate buffer.js:167:18",0x2786ac705138,~
+code-creation,Stub,16,0x1bb1e9046400,590,"CompareICStub"
+code-creation,Stub,16,0x1bb1e9046660,347,"CompareICStub"
+code-creation,Stub,16,0x1bb1e90467c0,597,"CompareICStub"
+code-creation,Stub,16,0x1bb1e9046a20,347,"CompareICStub"
+code-creation,LazyCompile,0,0x1bb1e9046b80,636,"slice buffer.js:823:40",0x2786ac706b78,~
+code-creation,LazyCompile,0,0x1bb1e9046e00,340,"get length native typedarray.js:1518:29",0x31bd173678d0,~
+code-creation,LazyCompile,0,0x1bb1e9046f60,628,"adjustOffset buffer.js:808:22",0x2786ac7058b8,~
+code-creation,Handler,4,0x1bb1e90471e0,171,"Math"
+code-creation,Stub,4,0x1bb1e90472a0,120,"LoadConstantStub"
+tick,0x10049dfe0,113239,0,0xdb80951c,0,0x100543670,0x1bb1e9046d02,0x1bb1e904631b,0x1bb1e9045ea4,0x1bb1e9045c8a,0x1bb1e90430d0,0x1bb1e904292e,0x1bb1e9041412,0x1bb1e9040f3d,0x1bb1e9035422,0x1bb1e9034eea,0x1bb1e9034d70,0x1bb1e8f47916,0x1bb1e8f42739
+code-creation,LazyCompile,0,0x1bb1e9047320,340,"get buffer native typedarray.js:1494:29",0x31bd17367660,~
+code-creation,LazyCompile,0,0x1bb1e9047480,340,"get byteOffset native typedarray.js:1510:33",0x31bd17367800,~
+code-creation,LazyCompile,0,0x1bb1e90475e0,1236,"Uint8ArrayConstructByArrayBuffer native typedarray.js:144:42",0x31bd17364110,~
+code-creation,Stub,15,0x1bb1e9047ac0,276,"BinaryOpICStub(MOD:Smi*1->Smi)"
+code-creation,LazyCompile,0,0x1bb1e9047be0,388,"alignPool buffer.js:53:19",0x2786ac704e38,~
+code-disable-optimization,"tryReadSync","TryFinallyStatement"
+code-creation,LazyCompile,0,0x1bb1e9047d80,604,"tryReadSync fs.js:483:21",0x2786ac740cc8,
+code-creation,LazyCompile,0,0x1bb1e9047fe0,1644,"fs.readSync fs.js:702:23",0x2786ac742a58,~
+code-creation,Stub,16,0x1bb1e9048660,348,"CompareICStub"
+code-creation,LazyCompile,0,0x1bb1e90487c0,300,"fs.closeSync fs.js:609:24",0x2786ac742758,~
+code-creation,LazyCompile,0,0x1bb1e9048900,708,"Buffer.toString buffer.js:488:37",0x2786ac7063f8,~
+code-creation,LazyCompile,0,0x1bb1e9048be0,2520,"slowToString buffer.js:421:22",0x2786ac705678,~
+tick,0x1bb1e8f1ed85,114505,0,0x1bb1e90429ad,0,0x1bb1e9041412,0x1bb1e9040f3d,0x1bb1e9035422,0x1bb1e9034eea,0x1bb1e9034d70,0x1bb1e8f47916,0x1bb1e8f42739
+code-creation,LazyCompile,0,0x1bb1e90495c0,388,"stripBOM internal/module.js:47:18",0x2786ac73a9d8,~
+code-creation,LazyCompile,0,0x1bb1e9049760,3272,"Module._compile module.js:510:37",0x2786ac7396b0,~
+code-creation,LazyCompile,0,0x1bb1e904a440,292,"runInThisContext vm.js:96:26",0x2786ac73bb40,~
+code-creation,LazyCompile,0,0x1bb1e904a580,276,"createScript vm.js:55:22",0x2786ac73b780,~
+code-creation,Stub,3,0x1bb1e904a6a0,775,"FastNewClosureStub"
+code-creation,Function,0,0x1bb1e904a9c0,1132," /Users/mxl/DailySummary/8. 异步编程 Promise 实现/index.js:1:11",0x2786ac76bbb8,~
+code-creation,Script,0,0x1bb1e904ae40,228,"/Users/mxl/DailySummary/8. 异步编程 Promise 实现/index.js",0x2786ac76bae8,~
+code-creation,LazyCompile,0,0x1bb1e904af40,660,"makeRequireFunction internal/module.js:13:29",0x2786ac73a918,~
+code-disable-optimization,"require","TryFinallyStatement"
+code-creation,LazyCompile,0,0x1bb1e904b1e0,604,"require internal/module.js:17:19",0x2786ac76c968,
+code-creation,LazyCompile,0,0x1bb1e904b440,508,"Module.require module.js:494:36",0x2786ac7395f0,~
+tick,0x10038a849,115593,0,0x20,0,0x100544b20,0x1bb1e90414fd,0x1bb1e904b509,0x1bb1e904b326,0x1bb1e904aa6f,0x1bb1e904a374,0x1bb1e90429eb,0x1bb1e9041412,0x1bb1e9040f3d,0x1bb1e9035422,0x1bb1e9034eea,0x1bb1e9034d70,0x1bb1e8f47916,0x1bb1e8f42739
+code-creation,Stub,17,0x1bb1e904b640,240,"ToBooleanICStub(Bool,String)"
+code-creation,Stub,17,0x1bb1e904b740,228,"ToBooleanICStub(Null,SpecObject)"
+code-creation,Stub,4,0x1bb1e904b840,120,"LoadConstantStub"
+code-creation,LazyCompile,0,0x1bb1e904b8c0,260,"NativeModule.isInternal bootstrap_node.js:465:39",0x31bd173de3d8,~
+code-creation,LazyCompile,0,0x1bb1e904b9e0,820,"startsWith native string.js:449:26",0x31bd17358e78,~
+code-creation,LazyCompile,0,0x1bb1e904bd20,236,"MaxSimple native runtime.js:32:19",0x31bd1734abb8,~
+code-creation,LazyCompile,0,0x1bb1e904be20,236,"MinSimple native runtime.js:35:19",0x31bd1734ac60,~
+code-creation,Stub,4,0x1bb1e904bf20,120,"LoadConstantStub"
+code-creation,Handler,4,0x1bb1e904bfa0,185,"startsWith"
+code-creation,LazyCompile,0,0x1bb1e904c060,452,"readFileA /Users/mxl/DailySummary/8. 异步编程 Promise 实现/index.js:70:26",0x2786ac76c230,~
+code-creation,LazyCompile,0,0x1bb1e904c240,252,"Deferred /Users/mxl/DailySummary/8. 异步编程 Promise 实现/index.js:3:25",0x2786ac76bdb0,~
+code-creation,LazyCompile,0,0x1bb1e904c340,268,"Promise /Users/mxl/DailySummary/8. 异步编程 Promise 实现/index.js:50:24",0x2786ac76c0b0,~
+code-creation,LazyCompile,0,0x1bb1e904c460,268,"Deferred.callback /Users/mxl/DailySummary/8. 异步编程 Promise 实现/index.js:40:40",0x2786ac76bff0,~
+code-creation,LazyCompile,0,0x1bb1e904c580,1764,"fs.readFile fs.js:272:23",0x2786ac742398,~
+code-creation,LazyCompile,0,0x1bb1e904cc80,284,"maybeCallback fs.js:106:23",0x2786ac740248,~
+code-creation,LazyCompile,0,0x1bb1e904cda0,580,"ReadFileContext fs.js:312:25",0x2786ac7406c8,~
+tick,0x7fff888ec632,116697,1,0x1008e0f91,4,0x1001cef30,0x1bb1e904cc4b,0x1bb1e904c1b8,0x1bb1e904ad47,0x1bb1e904a374,0x1bb1e90429eb,0x1bb1e9041412,0x1bb1e9040f3d,0x1bb1e9035422,0x1bb1e9034eea,0x1bb1e9034d70,0x1bb1e8f47916,0x1bb1e8f42739
+code-creation,LazyCompile,0,0x1bb1e904d000,492,"Promise.then /Users/mxl/DailySummary/8. 异步编程 Promise 实现/index.js:56:35",0x2786ac76c170,~
+code-creation,Handler,4,0x1bb1e904d200,224,"fulfilled"
+code-creation,LazyCompile,0,0x1bb1e904d2e0,1316,"_tickCallback internal/process/next_tick.js:93:25",0x2786ac72b2a8,~
+code-creation,Stub,4,0x1bb1e904d820,503,"LoadFastElementStub"
+code-creation,LazyCompile,0,0x1bb1e904da20,940,"tickDone internal/process/next_tick.js:36:20",0x2786ac72afa8,~
+code-creation,LazyCompile,0,0x1bb1e904dde0,2360,"emitPendingUnhandledRejections internal/process/promises.js:58:42",0x2786ac72ca60,~
+code-creation,LazyCompile,0,0x1bb1e904e720,636,"readFileAfterOpen fs.js:362:27",0x2786ac740788,~
+code-creation,LazyCompile,0,0x1bb1e904e9a0,1284,"readFileAfterStat fs.js:378:27",0x2786ac740848,~
+code-creation,LazyCompile,0,0x1bb1e904eec0,268,"Buffer.allocUnsafeSlow buffer.js:150:34",0x2786ac705eb8,~
+code-creation,Stub,12,0x1bb1e904efe0,464,"CallICStub(args(6), NOT_NULL_OR_UNDEFINED, "
+code-creation,Stub,12,0x1bb1e904f1c0,113,"CallICTrampolineStub"
+code-creation,LazyCompile,0,0x1bb1e904f240,988,"ReadFileContext.read fs.js:324:42",0x2786ac742458,~
+tick,0x100471127,117665,0,0x0,0
+code-creation,LazyCompile,0,0x1bb1e904f620,1076,"readFileAfterRead fs.js:402:27",0x2786ac740908,~
+code-creation,Stub,16,0x1bb1e904fa60,297,"CompareICStub"
+code-creation,LazyCompile,0,0x1bb1e904fba0,772,"ReadFileContext.close fs.js:346:43",0x2786ac742518,~
+code-creation,LazyCompile,0,0x1bb1e904fec0,1172,"readFileAfterClose fs.js:425:28",0x2786ac7409c8,~
+code-disable-optimization,"tryToString","TryCatchStatement"
+code-creation,LazyCompile,0,0x1bb1e9050360,396,"tryToString fs.js:449:21",0x2786ac740a88,
+code-creation,Handler,4,0x1bb1e9050500,164,"apply"
+code-creation,Handler,4,0x1bb1e90505c0,218,"length"
+code-creation,Handler,4,0x1bb1e90506a0,164,"utf8Slice"
+code-creation,LazyCompile,0,0x1bb1e9050760,348," /Users/mxl/DailySummary/8. 异步编程 Promise 实现/index.js:42:19",0x2786ac76e040,~
+code-creation,LazyCompile,0,0x1bb1e90508c0,720,"Deferred.resolve /Users/mxl/DailySummary/8. 异步编程 Promise 实现/index.js:8:39",0x2786ac76be70,~
+code-creation,LazyCompile,0,0x1bb1e9050ba0,244,"readFileA.then /Users/mxl/DailySummary/8. 异步编程 Promise 实现/index.js:76:34",0x2786ac76c2f0,~
+code-creation,Handler,4,0x1bb1e9050ca0,200,"queue"
+code-creation,Handler,4,0x1bb1e9050d80,200,"isPromise"
+code-creation,Handler,4,0x1bb1e9050e60,224,"promise"
+code-creation,Handler,4,0x1bb1e9050f40,164,"callback"
+code-creation,Stub,4,0x1bb1e9051000,216,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e90510e0,176,"fd"
+code-creation,Handler,4,0x1bb1e90511a0,200,"isUserFd"
+code-creation,Handler,4,0x1bb1e9051280,200,"size"
+code-creation,Handler,4,0x1bb1e9051360,200,"callback"
+code-creation,Handler,4,0x1bb1e9051440,200,"buffers"
+code-creation,Stub,4,0x1bb1e9051520,264,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e9051640,200,"buffer"
+code-creation,Stub,4,0x1bb1e9051720,236,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e9051820,192,"pos"
+code-creation,Stub,4,0x1bb1e90518e0,264,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e9051a00,200,"encoding"
+code-creation,Stub,4,0x1bb1e9051ae0,264,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e9051c00,200,"err"
+code-creation,Handler,4,0x1bb1e9051ce0,200,"context"
+code-creation,Handler,4,0x1bb1e9051dc0,209,"oncomplete"
+tick,0x100539e16,118825,0,0x7fff5fbf6880,0,0x10053f640,0x1bb1e904e7ba
+code-creation,Handler,4,0x1bb1e9051ea0,200,"oncomplete"
+code-creation,Handler,4,0x1bb1e9051f80,200,"context"
+code-creation,Stub,4,0x1bb1e9052060,120,"LoadConstantStub"
+code-creation,Handler,4,0x1bb1e90520e0,164,"isFile"
+code-creation,Stub,4,0x1bb1e90521a0,279,"LoadFieldStub"
+code-creation,Stub,4,0x1bb1e90522c0,212,"StoreFieldStub"
+code-creation,Stub,4,0x1bb1e90523a0,212,"StoreFieldStub"
+code-creation,Handler,4,0x1bb1e9052480,164,"read"
+code-creation,Stub,4,0x1bb1e9052540,112,"LoadFieldStub"
+code-creation,Handler,4,0x1bb1e90525c0,200,"oncomplete"
+code-creation,Handler,4,0x1bb1e90526a0,200,"context"
+code-creation,Stub,4,0x1bb1e9052780,180,"StoreFieldStub"
+code-creation,Handler,4,0x1bb1e9052840,164,"close"
+code-creation,Handler,4,0x1bb1e9052900,200,"oncomplete"
+code-creation,Handler,4,0x1bb1e90529e0,200,"context"
+code-creation,Stub,4,0x1bb1e9052ac0,212,"StoreFieldStub"
+code-creation,Stub,4,0x1bb1e9052ba0,112,"LoadFieldStub"
+code-creation,Stub,4,0x1bb1e9052c20,112,"LoadFieldStub"
+code-creation,Handler,4,0x1bb1e9052ca0,164,"toString"
+code-creation,Handler,4,0x1bb1e9052d60,164,"resolve"
+code-creation,Handler,4,0x1bb1e9052e20,164,"shift"
+code-creation,LazyCompile,0,0x1bb1e9052ee0,284,"readFileA.then.then /Users/mxl/DailySummary/8. 异步编程 Promise 实现/index.js:78:9",0x2786ac76c488,~
+code-creation,LazyCompile,0,0x1bb1e9053000,412,"get bootstrap_node.js:253:20",0x2786ac7221b0,~
+tick,0x1005c9a47,120121,1,0x1008ddb10,2,0x1001cef30,0x1bb1e8f490fc,0x1bb1e8f48b34,0x1bb1e8f481bc,0x1bb1e90530d9,0x1bb1e8f092a7,0x1bb1e9052f75,0x1bb1e9050a55,0x1bb1e90508a6,0x1bb1e90504a7,0x1bb1e9050301
+code-creation,Function,0,0x1bb1e90531a0,1564," console.js:1:11",0x2786ac7726f0,~
+code-creation,Script,0,0x1bb1e90537c0,228,"console.js",0x2786ac772620,~
+code-creation,LazyCompile,0,0x1bb1e90538c0,604,"getStdout internal/process/stdio.js:8:21",0x2786ac72df88,~
+code-creation,Stub,3,0x1bb1e9053b20,547,"FastCloneShallowObjectStub"
+code-creation,LazyCompile,0,0x1bb1e9053d60,1628,"createWritableStdioStream internal/process/stdio.js:134:35",0x2786ac72d9c8,~
+code-creation,Function,0,0x1bb1e90543c0,2148," tty.js:1:11",0x2786ac776b50,~
+code-creation,Script,0,0x1bb1e9054c40,228,"tty.js",0x2786ac776a80,~
+tick,0x100661130,121403,1,0x1008ddb10,2,0x1001cef30,0x1bb1e8f490fc,0x1bb1e8f48b34,0x1bb1e8f481bc,0x1bb1e90545a3,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e9053fde,0x1bb1e90539af,0x1bb1e8f092a7,0x1bb1e90536b6,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e90530d9,0x1bb1e8f092a7,0x1bb1e9052f75,0x1bb1e9050a55,0x1bb1e90508a6,0x1bb1e90504a7,0x1bb1e9050301
+tick,0x0,122656,0,0x0,2
+code-creation,Function,0,0x1bb1e9054d40,10980," net.js:1:11",0x2786ac779b98,~
+code-creation,Script,0,0x1bb1e9057840,228,"net.js",0x2786ac779ac8,~
+tick,0x100590844,123937,0,0x7fff5fbf5e88,0,0x100541760,0x1bb1e8f488d1,0x1bb1e8f48178,0x1bb1e90557d1,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e90545a3,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e9053fde,0x1bb1e90539af,0x1bb1e8f092a7,0x1bb1e90536b6,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e90530d9,0x1bb1e8f092a7,0x1bb1e9052f75,0x1bb1e9050a55,0x1bb1e90508a6,0x1bb1e90504a7,0x1bb1e9050301
+code-creation,Function,0,0x1bb1e9057940,420," internal/net.js:1:11",0x2786ac77efa8,~
+code-creation,Script,0,0x1bb1e9057b00,228,"internal/net.js",0x2786ac77eed8,~
+tick,0x7fff888ed132,131095,1,0x1008c7d55,4,0x1001cef30,0x1bb1e90558af,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e90545a3,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e9053fde,0x1bb1e90539af,0x1bb1e8f092a7,0x1bb1e90536b6,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e90530d9,0x1bb1e8f092a7,0x1bb1e9052f75,0x1bb1e9050a55,0x1bb1e90508a6,0x1bb1e90504a7,0x1bb1e9050301
+tick,0x1005b778e,131382,1,0x1008c7d55,3,0x1001cef30,0x1bb1e90558af,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e90545a3,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e9053fde,0x1bb1e90539af,0x1bb1e8f092a7,0x1bb1e90536b6,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e90530d9,0x1bb1e8f092a7,0x1bb1e9052f75,0x1bb1e9050a55,0x1bb1e90508a6,0x1bb1e90504a7,0x1bb1e9050301
+code-creation,RegExp,6,0x1bb1e9057c00,970,"\\bNET\\b"
+code-creation,LazyCompile,0,0x1bb1e9057fe0,404,"protoGetter net.js:607:21",0x2786ac77b0d0,~
+code-creation,Handler,4,0x1bb1e9058180,205,"prototype"
+code-creation,LazyCompile,0,0x1bb1e9058260,1596,"WriteStream tty.js:43:21",0x2786ac776f68,~
+tick,0x1005b05ab,133658,0,0x1bb1e90572bd,0,0x1005407a0,0x1bb1e90572c1,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e90545a3,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e9053fde,0x1bb1e90539af,0x1bb1e8f092a7,0x1bb1e90536b6,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e90530d9,0x1bb1e8f092a7,0x1bb1e9052f75,0x1bb1e9050a55,0x1bb1e90508a6,0x1bb1e90504a7,0x1bb1e9050301
+tick,0x7fff888ee162,133903,1,0x1008fe348,4,0x1001cef30,0x1bb1e9058616,0x1bb1e9054059,0x1bb1e90539af,0x1bb1e8f092a7,0x1bb1e90536b6,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e90530d9,0x1bb1e8f092a7,0x1bb1e9052f75,0x1bb1e9050a55,0x1bb1e90508a6,0x1bb1e90504a7,0x1bb1e9050301
+code-creation,LazyCompile,0,0x1bb1e90588a0,4132,"Socket net.js:125:16",0x2786ac77ab90,~
+code-creation,LazyCompile,0,0x1bb1e90598e0,1460,"Duplex _stream_duplex.js:23:16",0x2786ac755ea0,~
+code-creation,LazyCompile,0,0x1bb1e9059ea0,1092,"Readable _stream_readable.js:104:18",0x2786ac74ea28,~
+code-creation,LazyCompile,0,0x1bb1e905a300,2540,"ReadableState _stream_readable.js:35:23",0x2786ac74e968,~
+code-creation,Stub,16,0x1bb1e905ad00,708,"CompareICStub"
+tick,0x7fff888ed7ba,135169,0,0x7fff8aaabe96,0,0x100544420,0x1bb1e905a745,0x1bb1e905a182,0x1bb1e9059bfb,0x1bb1e9058d76,0x1bb1e905864b,0x1bb1e9054059,0x1bb1e90539af,0x1bb1e8f092a7,0x1bb1e90536b6,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e90530d9,0x1bb1e8f092a7,0x1bb1e9052f75,0x1bb1e9050a55,0x1bb1e90508a6,0x1bb1e90504a7,0x1bb1e9050301
+code-creation,LazyCompile,0,0x1bb1e905afe0,284,"BufferList internal/streams/BufferList.js:7:20",0x2786ac751020,~
+code-creation,LazyCompile,0,0x1bb1e905b100,292,"Stream internal/streams/legacy.js:6:16",0x2786ac74d030,~
+code-creation,Handler,4,0x1bb1e905b240,200,"domain"
+code-creation,Handler,4,0x1bb1e905b320,164,"_events"
+code-creation,LazyCompile,0,0x1bb1e905b3e0,180,"EventHandlers events.js:8:23",0x31bd173e73a8,~
+code-creation,Handler,4,0x1bb1e905b4a0,164,"_maxListeners"
+code-creation,Handler,4,0x1bb1e905b560,200,"_maxListeners"
+code-creation,LazyCompile,0,0x1bb1e905b640,1396,"Writable _stream_writable.js:157:18",0x2786ac753568,~
+code-creation,LazyCompile,0,0x1bb1e905bbc0,2348,"WritableState _stream_writable.js:26:23",0x2786ac7534a8,~
+code-creation,LazyCompile,0,0x1bb1e905c500,356,"CorkedRequest _stream_writable.js:538:23",0x2786ac754168,~
+code-creation,Stub,4,0x1bb1e905c680,212,"StoreFieldStub"
+code-creation,Stub,4,0x1bb1e905c760,120,"LoadConstantStub"
+code-creation,Handler,4,0x1bb1e905c7e0,164,"_events"
+code-creation,Stub,3,0x1bb1e905c8a0,2354,"RecordWriteStub"
+code-creation,Stub,4,0x1bb1e905d1e0,216,"StoreFieldStub"
+code-creation,Stub,16,0x1bb1e905d2c0,211,"CompareICStub"
+code-creation,LazyCompile,0,0x1bb1e905d3a0,484,"once events.js:298:44",0x31bd173e8368,~
+code-creation,LazyCompile,0,0x1bb1e905d5a0,388,"_onceWrap events.js:285:19",0x31bd173e7a68,~
+code-creation,LazyCompile,0,0x1bb1e905d740,1156,"Readable.on _stream_readable.js:686:33",0x2786ac7500a8,~
+code-creation,Handler,4,0x1bb1e905dbe0,145,symbol("nonexistent_symbol" hash 1db7469)
+code-creation,Handler,4,0x1bb1e905dc80,209,"end"
+code-creation,Stub,4,0x1bb1e905dd60,112,"LoadFieldStub"
+code-creation,Stub,4,0x1bb1e905dde0,180,"StoreFieldStub"
+code-creation,Handler,4,0x1bb1e905dea0,164,"on"
+code-creation,Handler,4,0x1bb1e905df60,209,"finish"
+code-creation,Handler,4,0x1bb1e905e040,209,"_socketEnd"
+code-creation,LazyCompile,0,0x1bb1e905e120,580,"initSocketHandle net.js:105:26",0x2786ac77aad0,~
+tick,0x1008fe4d8,136437,1,0x1008fe42a,4,0x1001cef30,0x1bb1e90587fc,0x1bb1e9054059,0x1bb1e90539af,0x1bb1e8f092a7,0x1bb1e90536b6,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e90530d9,0x1bb1e8f092a7,0x1bb1e9052f75,0x1bb1e9050a55,0x1bb1e90508a6,0x1bb1e90504a7,0x1bb1e9050301
+code-creation,Stub,4,0x1bb1e905e380,292,"LoadFastElementStub"
+code-creation,Handler,4,0x1bb1e905e4c0,585,"emit"
+code-creation,Handler,4,0x1bb1e905e720,145,symbol("nonexistent_symbol" hash 1db7469)
+code-creation,Handler,4,0x1bb1e905e7c0,164,"hasOwnProperty"
+code-creation,Handler,4,0x1bb1e905e880,189,"SIGWINCH"
+code-creation,LazyCompile,0,0x1bb1e905e940,604,"getStderr internal/process/stdio.js:21:21",0x2786ac72e048,~
+code-creation,Handler,4,0x1bb1e905eba0,164,symbol("Symbol.hasInstance" hash 1cb9da9b)
+code-creation,Handler,4,0x1bb1e905ec60,144,"handle"
+code-creation,Handler,4,0x1bb1e905ed00,164,symbol("Symbol.hasInstance" hash 1cb9da9b)
+code-creation,Handler,4,0x1bb1e905edc0,200,"connecting"
+code-creation,Handler,4,0x1bb1e905eea0,200,"_hadError"
+code-creation,Handler,4,0x1bb1e905ef80,200,"_handle"
+code-creation,Handler,4,0x1bb1e905f060,200,"_parent"
+code-creation,Handler,4,0x1bb1e905f140,200,"_host"
+code-creation,Handler,4,0x1bb1e905f220,164,symbol("Symbol.hasInstance" hash 1cb9da9b)
+code-creation,Handler,4,0x1bb1e905f2e0,164,symbol("Symbol.hasInstance" hash 1cb9da9b)
+code-creation,Handler,4,0x1bb1e905f3a0,145,symbol("nonexistent_symbol" hash 1db7469)
+tick,0x1005c99a9,138020,0,0x7fff5fbf5700,0,0x1005407a0,0x1bb1e905a414,0x1bb1e905a182,0x1bb1e9059bfb,0x1bb1e9058d76,0x1bb1e905864b,0x1bb1e9054059,0x1bb1e905ea2f,0x1bb1e8f092a7,0x1bb1e90536f4,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e90530d9,0x1bb1e8f092a7,0x1bb1e9052f75,0x1bb1e9050a55,0x1bb1e90508a6,0x1bb1e90504a7,0x1bb1e9050301
+code-creation,Handler,4,0x1bb1e905f440,200,"objectMode"
+code-creation,Handler,4,0x1bb1e905f520,164,symbol("Symbol.hasInstance" hash 1cb9da9b)
+code-creation,Stub,4,0x1bb1e905f5e0,236,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e905f6e0,192,"highWaterMark"
+code-creation,Handler,4,0x1bb1e905f7a0,200,"head"
+code-creation,Handler,4,0x1bb1e905f880,200,"tail"
+code-creation,Stub,4,0x1bb1e905f960,236,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e905fa60,192,"length"
+code-creation,Handler,4,0x1bb1e905fb20,224,"buffer"
+code-creation,Stub,4,0x1bb1e905fc00,236,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e905fd00,192,"length"
+code-creation,Handler,4,0x1bb1e905fdc0,200,"pipes"
+code-creation,Stub,4,0x1bb1e905fea0,236,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e905ffa0,192,"pipesCount"
+code-creation,Stub,4,0x1bb1e9060060,264,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e9060180,200,"flowing"
+code-creation,Handler,4,0x1bb1e9060260,200,"ended"
+code-creation,Handler,4,0x1bb1e9060340,200,"endEmitted"
+code-creation,Stub,4,0x1bb1e9060420,264,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e9060540,200,"reading"
+code-creation,Handler,4,0x1bb1e9060620,200,"sync"
+code-creation,Handler,4,0x1bb1e9060700,200,"needReadable"
+code-creation,Handler,4,0x1bb1e90607e0,200,"emittedReadable"
+code-creation,Handler,4,0x1bb1e90608c0,200,"readableListening"
+code-creation,Stub,4,0x1bb1e90609a0,272,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e9060ac0,200,"resumeScheduled"
+code-creation,Stub,4,0x1bb1e9060ba0,272,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e9060cc0,200,"defaultEncoding"
+code-creation,Stub,4,0x1bb1e9060da0,272,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e9060ec0,200,"ranOut"
+code-creation,Stub,4,0x1bb1e9060fa0,236,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e90610a0,192,"awaitDrain"
+code-creation,Stub,4,0x1bb1e9061160,272,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e9061280,200,"readingMore"
+code-creation,Stub,4,0x1bb1e9061360,272,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e9061480,200,"decoder"
+code-creation,Stub,4,0x1bb1e9061560,272,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e9061680,200,"encoding"
+tick,0x1001439bb,138813,0,0x1da1f979d8a9,0,0x1005407a0,0x1bb1e905a1a0,0x1bb1e9059bfb,0x1bb1e9058d76,0x1bb1e905864b,0x1bb1e9054059,0x1bb1e905ea2f,0x1bb1e8f092a7,0x1bb1e90536f4,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e90530d9,0x1bb1e8f092a7,0x1bb1e9052f75,0x1bb1e9050a55,0x1bb1e90508a6,0x1bb1e90504a7,0x1bb1e9050301
+code-creation,Handler,4,0x1bb1e9061760,224,"_readableState"
+code-creation,Handler,4,0x1bb1e9061840,200,"readable"
+code-creation,Handler,4,0x1bb1e9061920,224,"_events"
+code-creation,Stub,4,0x1bb1e9061a00,236,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e9061b00,192,"_eventsCount"
+code-creation,Handler,4,0x1bb1e9061bc0,164,symbol("Symbol.hasInstance" hash 1cb9da9b)
+code-creation,Handler,4,0x1bb1e9061c80,200,"objectMode"
+code-creation,Handler,4,0x1bb1e9061d60,164,symbol("Symbol.hasInstance" hash 1cb9da9b)
+code-creation,Handler,4,0x1bb1e9061e20,192,"highWaterMark"
+code-creation,Handler,4,0x1bb1e9061ee0,200,"needDrain"
+code-creation,Handler,4,0x1bb1e9061fc0,200,"ending"
+code-creation,Handler,4,0x1bb1e90620a0,200,"ended"
+code-creation,Handler,4,0x1bb1e9062180,200,"finished"
+code-creation,Handler,4,0x1bb1e9062260,200,"decodeStrings"
+code-creation,Handler,4,0x1bb1e9062340,200,"defaultEncoding"
+code-creation,Stub,4,0x1bb1e9062420,236,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e9062520,192,"length"
+code-creation,Handler,4,0x1bb1e90625e0,200,"writing"
+code-creation,Stub,4,0x1bb1e90626c0,236,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e90627c0,192,"corked"
+code-creation,Handler,4,0x1bb1e9062880,200,"sync"
+code-creation,Handler,4,0x1bb1e9062960,200,"bufferProcessing"
+code-creation,Handler,4,0x1bb1e9062a40,200,"onwrite"
+code-creation,Handler,4,0x1bb1e9062b20,200,"writecb"
+code-creation,Stub,4,0x1bb1e9062c00,236,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e9062d00,192,"writelen"
+code-creation,Handler,4,0x1bb1e9062dc0,200,"bufferedRequest"
+code-creation,Stub,4,0x1bb1e9062ea0,272,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e9062fc0,200,"lastBufferedRequest"
+code-creation,Stub,4,0x1bb1e90630a0,236,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e90631a0,192,"pendingcb"
+code-creation,Handler,4,0x1bb1e9063260,200,"prefinished"
+code-creation,Handler,4,0x1bb1e9063340,200,"errorEmitted"
+code-creation,Stub,4,0x1bb1e9063420,236,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e9063520,192,"bufferedRequestCount"
+code-creation,Handler,4,0x1bb1e90635e0,200,"next"
+code-creation,Handler,4,0x1bb1e90636c0,200,"entry"
+code-creation,Handler,4,0x1bb1e90637a0,224,"finish"
+code-creation,Stub,4,0x1bb1e9063880,272,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e90639a0,224,"corkedRequestsFree"
+code-creation,Handler,4,0x1bb1e9063a80,200,"_writableState"
+code-creation,Handler,4,0x1bb1e9063b60,200,"writable"
+code-creation,Stub,4,0x1bb1e9063c40,212,"StoreFieldStub"
+code-creation,Handler,4,0x1bb1e9063d20,200,"allowHalfOpen"
+code-creation,Handler,4,0x1bb1e9063e00,164,"once"
+code-creation,Handler,4,0x1bb1e9063ec0,164,"on"
+code-creation,Handler,4,0x1bb1e9063f80,209,"listener"
+code-creation,Handler,4,0x1bb1e9064060,224,"end"
+code-creation,Handler,4,0x1bb1e9064140,209,"finish"
+code-creation,Handler,4,0x1bb1e9064220,209,"_socketEnd"
+code-creation,Handler,4,0x1bb1e9064300,200,"destroyed"
+code-creation,Handler,4,0x1bb1e90643e0,192,"_bytesDispatched"
+code-creation,Handler,4,0x1bb1e90644a0,200,"_sockname"
+code-creation,Handler,4,0x1bb1e9064580,224,"owner"
+code-creation,Handler,4,0x1bb1e9064660,212,"onread"
+code-creation,Handler,4,0x1bb1e9064740,145,symbol("nonexistent_symbol" hash 1db7469)
+code-creation,Handler,4,0x1bb1e90647e0,200,"_writev"
+code-creation,Handler,4,0x1bb1e90648c0,200,"_pendingData"
+code-creation,Handler,4,0x1bb1e90649a0,200,"_pendingEncoding"
+tick,0x10040a91a,139974,0,0x103808f60,0,0x1005407a0,0x1bb1e9059640,0x1bb1e905864b,0x1bb1e9054059,0x1bb1e905ea2f,0x1bb1e8f092a7,0x1bb1e90536f4,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e90530d9,0x1bb1e8f092a7,0x1bb1e9052f75,0x1bb1e9050a55,0x1bb1e90508a6,0x1bb1e90504a7,0x1bb1e9050301
+code-creation,Stub,4,0x1bb1e9064a80,216,"StoreFieldStub"
+code-creation,Handler,4,0x1bb1e9064b60,200,"server"
+code-creation,Handler,4,0x1bb1e9064c40,200,"_server"
+code-creation,Stub,4,0x1bb1e9064d20,531,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e9064f40,192,symbol("bytesRead" hash 16d12885)
+code-creation,Handler,4,0x1bb1e9065000,164,"setBlocking"
+code-creation,Handler,4,0x1bb1e90650c0,157,"NODE_TTY_UNSAFE_ASYNC"
+code-creation,Handler,4,0x1bb1e9065160,171,"Array"
+code-creation,Handler,4,0x1bb1e9065220,164,"getWindowSize"
+code-creation,Stub,4,0x1bb1e90652e0,240,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e90653e0,192,"columns"
+code-creation,Stub,4,0x1bb1e90654a0,240,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e90655a0,192,"rows"
+code-creation,Stub,4,0x1bb1e9065660,575,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e90658a0,200,"_type"
+code-creation,Stub,4,0x1bb1e9065980,240,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e9065a80,192,"fd"
+code-creation,Stub,4,0x1bb1e9065b40,276,"StoreTransitionStub"
+code-creation,Handler,4,0x1bb1e9065c60,200,"_isStdio"
+code-creation,LazyCompile,0,0x1bb1e9065d40,316,"$getMaxListeners events.js:69:26",0x31bd173e7528,~
+code-creation,LazyCompile,0,0x1bb1e9065e80,188,"get events.js:31:16",0x31bd173e7d68,~
+code-creation,Stub,3,0x1bb1e9065f40,563,"FastCloneShallowObjectStub"
+code-creation,LazyCompile,0,0x1bb1e9066180,2192,"Console console.js:5:17",0x2786ac7729f8,~
+tick,0x1005a5e7c,141248,0,0x31bd17304241,0,0x1007291b0,0x1bb1e9006510,0x1bb1e9066721,0x1bb1e905371a,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e90530d9,0x1bb1e8f092a7,0x1bb1e9052f75,0x1bb1e9050a55,0x1bb1e90508a6,0x1bb1e90504a7,0x1bb1e9050301
+code-creation,Stub,3,0x1bb1e9066a20,535,"FastNewRestParameterStub"
+code-creation,LazyCompile,0,0x1bb1e9066c40,492,"Console.log console.js:42:33",0x2786ac772ab8,~
+code-creation,Handler,4,0x1bb1e9066e40,164,"info"
+code-creation,Handler,4,0x1bb1e9066f00,164,"bind"
+code-creation,Handler,4,0x1bb1e9066fc0,224,"info"
+code-creation,Handler,4,0x1bb1e90670a0,164,"warn"
+code-creation,LazyCompile,0,0x1bb1e9067160,492,"Console.warn console.js:50:34",0x2786ac772b78,~
+code-creation,Handler,4,0x1bb1e9067360,224,"warn"
+code-creation,Handler,4,0x1bb1e9067440,164,"error"
+code-creation,Handler,4,0x1bb1e9067500,224,"error"
+code-creation,Handler,4,0x1bb1e90675e0,164,"dir"
+code-creation,LazyCompile,0,0x1bb1e90676a0,580,"Console.dir console.js:58:33",0x2786ac772c38,~
+code-creation,Handler,4,0x1bb1e9067900,224,"dir"
+code-creation,Handler,4,0x1bb1e90679e0,164,"time"
+tick,0x1004a0a90,142383,1,0x100142470,2,0x1001c9f40,0x1bb1e9066913,0x1bb1e905371a,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e90530d9,0x1bb1e8f092a7,0x1bb1e9052f75,0x1bb1e9050a55,0x1bb1e90508a6,0x1bb1e90504a7,0x1bb1e9050301
+code-creation,LazyCompile,0,0x1bb1e9067aa0,380,"Console.time console.js:64:34",0x2786ac772cf8,~
+code-creation,Handler,4,0x1bb1e9067c20,224,"time"
+code-creation,Handler,4,0x1bb1e9067d00,164,"timeEnd"
+code-creation,LazyCompile,0,0x1bb1e9067dc0,988,"Console.timeEnd console.js:69:37",0x2786ac772db8,~
+code-creation,Handler,4,0x1bb1e90681a0,224,"timeEnd"
+code-creation,Handler,4,0x1bb1e9068280,164,"trace"
+code-creation,LazyCompile,0,0x1bb1e9068340,716,"trace console.js:82:41",0x2786ac772e78,~
+code-creation,Handler,4,0x1bb1e9068620,224,"trace"
+code-creation,Handler,4,0x1bb1e9068700,164,"assert"
+code-creation,LazyCompile,0,0x1bb1e90687c0,548,"Console.assert console.js:93:36",0x2786ac772f38,~
+code-creation,Handler,4,0x1bb1e9068a00,224,"assert"
+tick,0x7fff888ed7ba,143482,0,0x7fff8aaabe96,0,0x100541760,0x1bb1e906692c,0x1bb1e905371a,0x1bb1e8f48bc7,0x1bb1e8f481bc,0x1bb1e90530d9,0x1bb1e8f092a7,0x1bb1e9052f75,0x1bb1e9050a55,0x1bb1e90508a6,0x1bb1e90504a7,0x1bb1e9050301
+code-disable-optimization,"installInspectorConsoleIfNeeded","TryCatchStatement"
+code-creation,LazyCompile,0,0x1bb1e9068ae0,3268,"installInspectorConsoleIfNeeded bootstrap_node.js:265:43",0x31bd173dd7b8,
+tick,0x10063d856,144496,0,0x9,2,0x1006d0ab0,0x1bb1e9066da5,0x1bb1e9052fb2,0x1bb1e9050a55,0x1bb1e90508a6,0x1bb1e90504a7,0x1bb1e9050301
+code-creation,LazyCompile,0,0x1bb1e90697c0,4512,"exports.format util.js:65:26",0x31bd173f0028,~
+code-creation,Stub,15,0x1bb1e906a960,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+tick,0x10017e780,145785,0,0x7fff5fbf6c70,0,0x100543670,0x1bb1e9066dbc,0x1bb1e9052fb2,0x1bb1e9050a55,0x1bb1e90508a6,0x1bb1e90504a7,0x1bb1e9050301
+code-creation,Stub,15,0x1bb1e906a9e0,111,"BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)"
+code-creation,LazyCompile,0,0x1bb1e906aa60,1076,"Socket.write net.js:656:34",0x2786ac77d050,~
+code-creation,LazyCompile,0,0x1bb1e906aea0,1252,"Writable.write _stream_writable.js:226:36",0x2786ac754608,~
+tick,0x10083dd73,147057,0,0x102e84500,2,0x1006d0ab0,0x1bb1e906b29a,0x1bb1e906ae45,0x1bb1e9066de4,0x1bb1e9052fb2,0x1bb1e9050a55,0x1bb1e90508a6,0x1bb1e90504a7,0x1bb1e9050301
+code-creation,LazyCompile,0,0x1bb1e906b3a0,1284,"validChunk _stream_writable.js:204:20",0x2786ac7536e8,~
+code-creation,Stub,12,0x1bb1e906b8c0,464,"CallICStub(args(7), ANY, "
+code-creation,Stub,12,0x1bb1e906baa0,113,"CallICTrampolineStub"
+code-creation,LazyCompile,0,0x1bb1e906bb20,1612,"writeOrBuffer _stream_writable.js:296:23",0x2786ac753868,~
+code-creation,LazyCompile,0,0x1bb1e906c180,476,"decodeChunk _stream_writable.js:284:21",0x2786ac7537a8,~
+code-creation,LazyCompile,0,0x1bb1e906c360,596,"doWrite _stream_writable.js:326:17",0x2786ac753928,~
+code-creation,LazyCompile,0,0x1bb1e906c5c0,268,"Socket._write net.js:733:35",0x2786ac77d290,~
+code-creation,LazyCompile,0,0x1bb1e906c6e0,3128,"Socket._writeGeneric net.js:665:42",0x2786ac77d110,~
+tick,0x7fff8f1fc134,148089,0,0x101d9a000,2,0x1006d0ab0,0x1bb1e906c92b,0x1bb1e906c685,0x1bb1e906c547,0x1bb1e906c119,0x1bb1e906b330,0x1bb1e906ae45,0x1bb1e9066de4,0x1bb1e9052fb2,0x1bb1e9050a55,0x1bb1e90508a6,0x1bb1e90504a7,0x1bb1e9050301
+code-creation,LazyCompile,0,0x1bb1e906d320,448,"_unrefTimer net.js:201:52",0x2786ac77be50,~
+code-creation,LazyCompile,0,0x1bb1e906d4e0,228,"exports._unrefActive timers.js:109:32",0x2786ac71a438,~
+code-creation,LazyCompile,0,0x1bb1e906d5e0,1156,"insert timers.js:119:16",0x2786ac719538,~
+code-creation,Stub,16,0x1bb1e906da80,347,"CompareICStub"
+code-creation,LazyCompile,0,0x1bb1e906dbe0,1380,"createWriteReq net.js:737:24",0x2786ac77b190,~
+code-creation,LazyCompile,0,0x1bb1e906e160,228,"WritableState.onwrite _stream_writable.js:89:26",0x2786ac78da90,~
+tick,0x1001f129f,149178,0,0x0,2,0x1006d0ab0,0x1bb1e906e1ff,0x1bb1e906d2f1,0x1bb1e906c685,0x1bb1e906c547,0x1bb1e906c119,0x1bb1e906b330,0x1bb1e906ae45,0x1bb1e9066de4,0x1bb1e9052fb2,0x1bb1e9050a55,0x1bb1e90508a6,0x1bb1e90504a7,0x1bb1e9050301
+code-creation,LazyCompile,0,0x1bb1e906e260,868,"onwrite _stream_writable.js:356:17",0x2786ac753b68,~
+code-creation,LazyCompile,0,0x1bb1e906e5e0,388,"onwriteStateUpdate _stream_writable.js:349:28",0x2786ac753aa8,~
+code-creation,LazyCompile,0,0x1bb1e906e780,572,"needFinish _stream_writable.js:494:20",0x2786ac753e68,~
+code-creation,LazyCompile,0,0x1bb1e906e9c0,1400,"nextTick internal/process/next_tick.js:140:20",0x2786ac72b428,~
+tick,0x100548cbe,150222,0,0x103012e00,0,0x10053fd40,0x1bb1e906ec99,0x1bb1e906e546,0x1bb1e906e1ff,0x1bb1e906d2f1,0x1bb1e906c685,0x1bb1e906c547,0x1bb1e906c119,0x1bb1e906b330,0x1bb1e906ae45,0x1bb1e9066de4,0x1bb1e9052fb2,0x1bb1e9050a55,0x1bb1e90508a6,0x1bb1e90504a7,0x1bb1e9050301
+code-creation,LazyCompile,0,0x1bb1e906ef40,860,"_combinedTickCallback internal/process/next_tick.js:71:33",0x2786ac72b1e8,~
+code-creation,LazyCompile,0,0x1bb1e906f2a0,412,"afterWrite _stream_writable.js:384:20",0x2786ac753c28,~
+code-creation,LazyCompile,0,0x1bb1e906f440,412,"onwriteDrain _stream_writable.js:395:22",0x2786ac753ce8,~
+code-creation,LazyCompile,0,0x1bb1e906f5e0,180,"nop _stream_writable.js:17:13",0x2786ac753328,~
+code-creation,LazyCompile,0,0x1bb1e906f6a0,548,"finishMaybe _stream_writable.js:509:21",0x2786ac753fe8,~
+profiler,"end"
