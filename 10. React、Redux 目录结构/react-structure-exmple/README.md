@@ -101,16 +101,15 @@ app/
 [root]/
 ├── docs/                                 项目文档
 ├── statics(/public)/                     静态资源
-│   ├── css/                              css 文件 ？
 │   ├── images/                           图片
-│   ├── js/                               js 文件  ？
 │   ├── tpls/                             模版文件
 │   └── fonts/                            字体
 ├── src/                                  项目目录
 │   ├── config/                           公共配置信息
 │   ├── constants/                        公共常量
 │   ├── components/                       公共组件
-│   │   ├── components/                   工具
+│   ├── stylesheets/                      公共 CSS 变量、群
+│   ├── utils/                            工具
 │   ├── pages/                            模块目录
 │   │   ├── components/                   项目组件
 │   │   ├── module/                       项目子模块
