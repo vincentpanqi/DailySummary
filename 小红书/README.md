@@ -41,8 +41,34 @@ When we invoke a function using `new`, the object bound to this in the construct
 function Fn() {}
 var foo = new Fn()
 foo.__proto__ === Fn.prototype  // true
+obj.__proto__.__proto__=== Object.prototype // true
+```
+### 1.5 constructor
+
+Every function’s `prototype` has a `constructor` property on it that points back to the function itself.
+
+```
+function Fn() {}
+Fn.prototype.constructor === Fn // true
 ```
 
+### 1.6 Object.create
+
+There’s a way to set the prototype of an object manually.  `Object.create`. This function will take in an object as a parameter. It’ll return a brand new object whose `__proto__` property is equal to the object that was passed in.
+
+```
+var prototypeObj = {
+    testValue: 'Hello!'
+};
+var obj = Object.create(prototypeObj);
+obj.__proto__ === prototypeObj; // true
+```
+
+### summary
+
+inheritance in JavaScript is implemented through the prototype chain.
+
+Every normally created object, array, and function has a prototype chain of `__proto__` properties ending with `Object.prototype` at the top. 
 
 *[Master JavaScript Prototypes & Inheritance](https://codeburst.io/master-javascript-prototypes-inheritance-d0a9a5a75c4e)
 *[10 JavaScript concepts you need to know for interviews](https://dev.to/arnavaggarwal/10-javascript-concepts-you-need-to-know-for-interviews)
