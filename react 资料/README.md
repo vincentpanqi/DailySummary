@@ -35,3 +35,11 @@
 * [BEM](https://www.smashingmagazine.com/2012/04/a-new-front-end-methodology-bem/)
 
 * [SASS-lint]()
+
+3.2 React + Redux 架构规范
+
+* [Redux + React 应用程序架构的 3 条规范（内附实例）](https://zhuanlan.zhihu.com/p/21490605)
+
+- 基于特性进行组织
+- 设计严格的模块边界（设计模块对外暴露的公共接口、避免跟其他模块的状态相耦合
+-
