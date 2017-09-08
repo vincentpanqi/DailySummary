@@ -16,7 +16,10 @@
 
 > And sometimes, if you didn’t start with a good architecture, it can become difficult to keep your code organized.
 
-### 1.2 例子
+### 1.2 性能优化
+* [React移动web极致优化](https://github.com/lcxfs1991/blog/issues/8)
+
+### 1.3 例子
 
 * [react-redux-universal-hot-example](https://github.com/erikras/react-redux-universal-hot-example)
 
@@ -42,4 +45,8 @@
 
 - 基于特性进行组织
 - 设计严格的模块边界（设计模块对外暴露的公共接口、避免跟其他模块的状态相耦合
--
+
+## 4. React Router 相关问题
+* [React-router urls don't work when refreshing or writting manually
+
+](https://stackoverflow.com/questions/27928372/react-router-urls-dont-work-when-refreshing-or-writting-manually/37449679#37449679?newreg=73bfe3b72b484aaab21dde3c5787a780)
