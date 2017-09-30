@@ -16,6 +16,8 @@
 
 > And sometimes, if you didn’t start with a good architecture, it can become difficult to keep your code organized.
 
+* [A Survey on Tree Edit Distance and Related Problems](http://grfia.dlsi.ua.es/ml/algorithms/references/editsurvey_bille.pdf)
+
 ### 1.2 性能优化
 * [React移动web极致优化](https://github.com/lcxfs1991/blog/issues/8)
 
@@ -50,3 +52,12 @@
 * [React-router urls don't work when refreshing or writting manually
 
 ](https://stackoverflow.com/questions/27928372/react-router-urls-dont-work-when-refreshing-or-writting-manually/37449679#37449679?newreg=73bfe3b72b484aaab21dde3c5787a780)
+
+## 5. webpack 打包优化
+
+5.1 补充
+
+- 使用 uglifyjs-webpack-plugin 代替 webpack.optimize.UglifyJsPlugin，代码压缩优化很多，吃惊
+- 使用 webpack-merge 的工具区分各种环境，实践中发现打包的体积比 Object.assign 合并小
+
+* [webpack2 终极优化](http://imweb.io/topic/5868e1abb3ce6d8e3f9f99bb)
