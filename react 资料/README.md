@@ -36,10 +36,17 @@
 
 3.1 CSS 架构
 
-* [OOCSS]()
+* [CSS STILL SUCKS 2015](https://huangxuan.me/css-sucks-2015/#/)
+
+* [OOCSS](https://github.com/stubbornella/oocss/wiki)
 * [BEM](https://www.smashingmagazine.com/2012/04/a-new-front-end-methodology-bem/)
+* [CSS Modules 详解及 React 中实践](https://github.com/camsong/blog/issues/5)
 
 * [SASS-lint]()
+
+3.1 JS 模块化
+
+* [JAVASCRIPT MODULARIZATION ](https://huangxuan.me/js-module-7day/#/)
 
 3.2 React + Redux 架构规范
 
@@ -50,7 +57,6 @@
 
 ## 4. React Router 相关问题
 * [React-router urls don't work when refreshing or writting manually
-
 ](https://stackoverflow.com/questions/27928372/react-router-urls-dont-work-when-refreshing-or-writting-manually/37449679#37449679?newreg=73bfe3b72b484aaab21dde3c5787a780)
 
 ## 5. webpack 打包优化
