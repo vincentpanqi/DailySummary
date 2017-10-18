@@ -6,6 +6,23 @@ const ora = require('ora');
 const question = [
   {
     type: 'input',
+    name: 'gitPlace',
+    message: 'Project gitPlace:',
+    validate(val) {
+      if (val !== '') {
+        return true;
+      }
+      return 'Project name is required!';
+    }
+  },
+  {
+    type: 'input',
+    name: 'gitBranch',
+    message: 'Project gitBranch:',
+    default: 'master'
+  },
+  {
+    type: 'input',
     name: 'project',
     message: 'Project name:',
     validate(val) {
@@ -23,9 +40,9 @@ const question = [
   }
 ];
 
-module.exports = prompt(question).then(({ name, project, place }) => {
-  const gitPlace = 'fancymo/fan-react';
-  const gitBranch = 'master';
+module.exports = prompt(question).then(({ gitPlace, gitBranch, project, place }) => {
+  // const gitPlace = 'fancymo/fan-react';
+  // const gitBranch = 'master';
   const spinner = ora('Downloading template...');
 
   spinner.start();

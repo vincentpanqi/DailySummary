@@ -9,7 +9,7 @@ const res = command => resolve(__dirname, '../commands/', command)
 const program = require('commander')
 
 program
-  .version(require('../package').version );
+  .version(require('../package').version);
 
 program
   .usage('<command>');
@@ -22,9 +22,8 @@ program
     require(res('init'))
   });
 
+program.parse(process.argv);
 
-program.parse(process.argv)
-
-if(!program.args.length){
-  program.help()
+if (!program.args.length) {
+  program.help();
 }
