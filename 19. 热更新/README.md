@@ -1,6 +1,6 @@
 ### sourceEvent
 
-sourceEvent 基于 HTTP 协议，基于 Stream，默认端口号为 80。
+EventSource 是 HTML5 中 Server-sent Events 规范的一种技术实现。EventSource 接口用于接收服务器发送的事件。它通过HTTP连接到一个服务器，以text/event-stream 格式接收事件, 不关闭连接。sourceEvent 基于 HTTP 协议，基于 Stream，默认端口号为 80。
 
 ### webSocket
 
