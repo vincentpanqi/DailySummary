@@ -2,6 +2,8 @@
 
 ### 1.1 文档
 
+* [react 设计](./reactDevise.md)
+
 * [Container Components](https://medium.com/@learnreact/container-components-c0e67432e005)
 
 > A container does data fetching and then renders its corresponding sub-component. That’s it.
