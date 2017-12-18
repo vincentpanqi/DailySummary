@@ -68,4 +68,6 @@
 - 使用 uglifyjs-webpack-plugin 代替 webpack.optimize.UglifyJsPlugin，标识出了那些“未引用代码(dead code)”，从 bundle 中删除，tree-shaking
 - 使用 webpack-merge 的工具区分各种环境，实践中发现打包的体积比 Object.assign 合并小
 
+优化结果可见[opt目录](./opt)，编译时间减少至原来的 1/3，文件编译体积为原来的 1/4。
+
 * [webpack2 终极优化](http://imweb.io/topic/5868e1abb3ce6d8e3f9f99bb)
