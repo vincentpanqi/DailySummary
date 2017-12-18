@@ -1,5 +1,4 @@
 (function () {
-  'use strict';
   var _slice = Array.prototype.slice;
 
   try {

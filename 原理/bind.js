@@ -1,22 +1,22 @@
-// https://github.com/shhdgit/blogs/issues/1
-function bind(that) {
-  const target = this;
-  const bindArgs = Array.prototype.slice.call(arguments, 1);
-
-  function bound() {
-    const callArgs = Array.prototype.slice.call(arguments);
-    if (this instanceof bound) {
-      return target.apply(this, callArgs.concat(callArgs))
-    } else {
-      return target.apply(that, callArgs.concat(callArgs))
-    }
-  }
-
-  // 实现继承，让bound函数生成的实例通过原型链能追溯到target函数
-  // 即 实例可以获取/调用target.prototype上的属性/方法
-  const Empty = function () {};
-  Empty.prototype = target.prototype;
-  bound.prototype = new Empty();  // 这里如果不加入Empty，直接bound.prototype = target.prototype的话
-                                 // 改变bound.prototype则会影响到target.prototype，原型继承基本都会加入这么一个中间对象做屏障
-  return bound;
-}
+(function () {
+  Function.prototype.bind = Function.prototype.bind || function(to){
+  	// Make an array of our arguments, starting from second argument
+  	var	partial	= Array.prototype.splice.call(arguments, 1);
+  	// We'll need the original function.
+  	var fn	= this;
+  	var bound = function (){
+    	// Join the already applied arguments to the now called ones (after converting to an array again).
+    	var args = partial.concat(Array.prototype.splice.call(arguments, 0));
+    	// If not being called as a constructor
+    	if (!(this instanceof bound)){
+    	  // return the result of the function called bound to target and partially applied.
+  			return fn.apply(to, args);
+  		}
+  		// If being called as a constructor, apply the function bound to self.
+  		fn.apply(this, args);
+  	}
+  	// Attach the prototype of the function to our newly created function.
+  	bound.prototype = fn.prototype;
+  	return bound;
+  };
+}());
