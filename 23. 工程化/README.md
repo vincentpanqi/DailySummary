@@ -15,6 +15,8 @@ makefile、Grunt
 
 #### 编码规范
 
+* [编码规范文档](./standard/index.md): 包括 JavaScript、CSS、HTML、文件命名等规范
+
 JSLint、JSHint
 
 #### 代码审查
@@ -30,3 +32,7 @@ JSLint、JSHint
 准备测试环境来供开发人员或测试者验证代码的改动是否正确。有一些功能，它的行为是与具体数据相关的，测试环境中的数据在种类和大小上不能够满足测试需求，需要在预发布环境中测试。
 
 普通环境称为 stage，预发布环境称为 pre-release，实际生产环境
+
+#### 实际开发问题总结
+
+* [消灭bug](./squashBugs.md)
