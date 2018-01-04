@@ -16,19 +16,109 @@
 
 Haskell Books Curry 和 Moses Schönfinkel 的一种符号系统，用来消除数理逻辑中对变量的需要。
 
+#### 一等公民的函数
+
+当函数作为一等公民当时候，可以像对待任何其他数据类型一样对待它们——把它们存在数组里，当作参数传递，赋值给变量...等等。
+
+#### 纯函数
+
+纯函数是这样一种函数，即相同的输入，永远会得到相同的输出，而且没有任何可观察的副作用。
+
+```
+// 不纯的
+var minimum = 21;
+
+var checkAge = function(age) {
+  return age >= minimum;
+};
+
+
+// 纯的
+var checkAge = function(age) {
+  var minimum = 21;
+  return age >= minimum;
+};
+```
+
+在不纯的版本中，它取决于系统状态（system state）；这一点令人沮丧，因为它引入了外部的环境，从而增加了认知负荷（cognitive load）。
+
+让副作用在可控的范围内发生。
+
 #### 柯里化（Curry）
 
-柯里化是把接受多个参数的函数变换成接受一个单一参数的函数，并返回接受余下的参数而且返回结果的新函数的技术。
+柯里化，又称部分求值，是把接受多个参数的函数变换成接受一个单一参数的函数，并返回接受余下的参数而且返回结果的新函数的技术。**使函数理解并处理部分应用。**
 
+柯里化有三个常见的作用：
+1. 参数复用；
+2. 提前返回；
+3. 延迟计算/运行。
+
+栗子1: 参数复用
 ```
 var foo = function(a) {
+  const square = a * a;
   return function(b) {
-    return a * a + b * b;
+    return square + b * b;
   }
 }
-
-foo(1)(2) // => 5
+const squareTwoBase = foo(2);
+squareTwoBase(1) // => 5
+squareTwoBase(2) // => 5
 ```
+
+栗子2: 提前返回
+
+兼容现代浏览器以及IE浏览器的事件添加方法。正常情况可能会这样写：
+```
+var addEvent = function(el, type, fn, capture) {
+    if (window.addEventListener) {
+        el.addEventListener(type, function(e) {
+            fn.call(el, e);
+        }, capture);
+    } else if (window.attachEvent) {
+        el.attachEvent("on" + type, function(e) {
+            fn.call(el, e);
+        });
+    }
+};
+```
+
+很显然，我们每次使用addEvent为元素添加事件的时候，(eg. IE6/IE7)都会走一遍if...else if ...，其实只要一次判定就可以了，可以改为下面这样子的代码：
+
+```
+var addEvent = (function(){
+    if (window.addEventListener) {
+        return function(el, sType, fn, capture) {
+            el.addEventListener(sType, function(e) {
+                fn.call(el, e);
+            }, (capture));
+        };
+    } else if (window.attachEvent) {
+        return function(el, sType, fn, capture) {
+            el.attachEvent("on" + sType, function(e) {
+                fn.call(el, e);
+            });
+        };
+    }
+})();
+```
+
+栗子3: 延迟计算
+
+```
+var money = 0;
+var pay = function(oneLobster) {
+    money+=oneLobster;
+}
+pay(38);
+pay(38);
+
+console.log(money); // => 76
+```
+
+ES5 中 bind 方法，用来改变 Function 执行时候的上下文，本质上就是延迟执行。
+
+antd Form 的欣赏:
 
 ```
 // ant-design/blob/master/components/form/Form.tsx
@@ -74,9 +164,38 @@ function createBaseForm(option = {}, mixins = []) {
 }
 ```
 
+这里达到的是一种 **单一职责** 的能力。在不同的模块做不同的事情。
+
 ```
 // react-component/form/blob/master/src/createForm.js
 function createForm(options) {
   return createBaseForm(options, [mixin]);
 }
 ```
+
+这里达到的是一种 **复用** 的能力。
+
+#### 反柯里化
+
+与科里化相反，反科里化的作用在于扩大函数的使用性,使本来作为特定对象所拥有的功能函数可以被任意对象所用。
+
+```
+//就是用来泛化方法的this,并传参
+Function.prototype.uncurrying = function() {
+  var that = this;
+  return function() {
+    Function.prototype.call.apply(that, arguments);
+  }
+}
+
+//示例
+var obj = {};
+var push = Array.prototype.push.uncurrying();
+push(obj, '1232')
+console.log(obj) // => { '0': '1232', length: 1 }
+```
+
+
+【参考文献】：
+
+* [javascript 中有趣的反柯里化技术](http://www.alloyteam.com/2013/08/javascript-zhong-you-qu-di-fan-ke-li-hua-ji-shu/)
